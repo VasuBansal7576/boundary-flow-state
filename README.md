@@ -14,9 +14,13 @@ The site at the repository root is a credential-free **recorded evidence replay*
 
 ## Submission status and provenance
 
-The organisers’ later announcement requires a 3–5 minute film, live demo, repository, hosted video, social post and active ArmorTools Pro. Billing was declined, so Pro is inactive. The active platform SDK policy is distinct from ArmorTools’ ArmorClaude Policy Studio. We do not claim full eligibility, that a plugin policy enforced the recording, or that this entry has been submitted without a real form receipt. See the dated compliance audit.
+The organisers’ later announcement requires a 3–5 minute film, live demo, repository, hosted video, social post and active ArmorTools Pro. Billing was declined, so Pro is inactive. The active platform SDK policy is distinct from ArmorTools’ ArmorClaude Policy Studio. We do not claim full eligibility or that a plugin policy enforced the recording. No hackathon entry has been submitted; this repository publishes the demo and its evidence. See the dated compliance audit.
 
 Built during the 10–17 October event week using AI coding assistants, existing Codex subscription, ArmorIQ Python SDK 0.6.10, MCP 2.3.0, upstream Swarms 16.0.1, Playwright and HyperFrames 0.8.167. Current post-recording MCP/runtime/restart fixes are disclosed separately; original trace files are preserved. The video uses original continuous live telemetry footage and labeled native evidence/console close-ups captured afterward. Local Kokoro narration and an original synthesized music bed; ElevenLabs was not used. Additional spend: $0.
+
+## Watch
+
+[Unlisted four-minute film](https://youtu.be/PTKfH2pNLgU) · [Recorded evidence replay](https://vasubansal7576.github.io/boundary-flow-state/) · [Full recording and local package](https://github.com/VasuBansal7576/boundary-flow-state/releases/tag/flow-state-2026)
 
 ## Review
 
