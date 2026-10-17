@@ -1,0 +1,1 @@
+Boundary tests how coordinated agents use and misuse websites. Two matching sites. Unprotected first, then Armor I Q. This time, we record the full execution.

@@ -1,0 +1,1074 @@
+{
+  "project": "exploration-vc90",
+  "runtime": "all",
+  "compositions": [
+    {
+      "composition": "index.html",
+      "source": "index.html",
+      "tweens": [],
+      "traces": [],
+      "cssKeyframes": [],
+      "anime": []
+    },
+    {
+      "composition": "f1",
+      "source": "compositions/frames/01-product.html",
+      "tweens": [
+        {
+          "id": "__unresolved__-fromTo-__raw:t",
+          "target": "__unresolved__",
+          "method": "fromTo",
+          "start": null,
+          "duration": 0.5,
+          "end": null,
+          "totalDuration": null,
+          "position": "__raw:t",
+          "ease": "power4.out",
+          "unresolved": [
+            "start",
+            "target",
+            "totalDuration",
+            "propertyExpressions"
+          ],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": null,
+              "properties": {
+                "opacity": 0,
+                "x": "__raw:dx",
+                "y": "__raw:dx?0:45"
+              }
+            },
+            {
+              "pct": 100,
+              "time": null,
+              "properties": {
+                "opacity": 1,
+                "x": 0,
+                "y": 0
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "__unresolved__-to-__raw:t",
+          "target": "__unresolved__",
+          "method": "to",
+          "start": null,
+          "duration": 1.2,
+          "end": null,
+          "totalDuration": 1.2,
+          "position": "__raw:t",
+          "ease": "power2.inOut",
+          "unresolved": [
+            "start",
+            "target",
+            "endpointProperties",
+            "propertyExpressions"
+          ],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": null,
+              "properties": {
+                "x": 0,
+                "y": 0
+              }
+            },
+            {
+              "pct": 100,
+              "time": null,
+              "properties": {
+                "scale": "__raw:s",
+                "x": "__raw:x",
+                "y": "__raw:y"
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "__unresolved__-fromTo-__raw:t-other",
+          "target": "__unresolved__",
+          "method": "fromTo",
+          "group": "other",
+          "start": null,
+          "duration": 0.65,
+          "end": null,
+          "totalDuration": 0.65,
+          "position": "__raw:t",
+          "ease": "power2.out",
+          "unresolved": [
+            "start",
+            "target",
+            "propertyExpressions"
+          ],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": null,
+              "properties": {
+                "strokeDasharray": "__raw:n",
+                "strokeDashoffset": "__raw:n"
+              }
+            },
+            {
+              "pct": 100,
+              "time": null,
+              "properties": {
+                "strokeDashoffset": 0
+              }
+            }
+          ],
+          "path": null
+        }
+      ],
+      "traces": [],
+      "cssKeyframes": [],
+      "anime": []
+    },
+    {
+      "composition": "f2",
+      "source": "compositions/frames/02-population.html",
+      "tweens": [
+        {
+          "id": "__unresolved__-fromTo-__raw:t",
+          "target": "__unresolved__",
+          "method": "fromTo",
+          "start": null,
+          "duration": 0.5,
+          "end": null,
+          "totalDuration": null,
+          "position": "__raw:t",
+          "ease": "power4.out",
+          "unresolved": [
+            "start",
+            "target",
+            "totalDuration",
+            "propertyExpressions"
+          ],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": null,
+              "properties": {
+                "opacity": 0,
+                "x": "__raw:dx",
+                "y": "__raw:dx?0:45"
+              }
+            },
+            {
+              "pct": 100,
+              "time": null,
+              "properties": {
+                "opacity": 1,
+                "x": 0,
+                "y": 0
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "__unresolved__-to-__raw:t",
+          "target": "__unresolved__",
+          "method": "to",
+          "start": null,
+          "duration": 1.2,
+          "end": null,
+          "totalDuration": 1.2,
+          "position": "__raw:t",
+          "ease": "power2.inOut",
+          "unresolved": [
+            "start",
+            "target",
+            "endpointProperties",
+            "propertyExpressions"
+          ],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": null,
+              "properties": {
+                "x": 0,
+                "y": 0
+              }
+            },
+            {
+              "pct": 100,
+              "time": null,
+              "properties": {
+                "scale": "__raw:s",
+                "x": "__raw:x",
+                "y": "__raw:y"
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "__unresolved__-fromTo-__raw:t-other",
+          "target": "__unresolved__",
+          "method": "fromTo",
+          "group": "other",
+          "start": null,
+          "duration": 0.65,
+          "end": null,
+          "totalDuration": 0.65,
+          "position": "__raw:t",
+          "ease": "power2.out",
+          "unresolved": [
+            "start",
+            "target",
+            "propertyExpressions"
+          ],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": null,
+              "properties": {
+                "strokeDasharray": "__raw:n",
+                "strokeDashoffset": "__raw:n"
+              }
+            },
+            {
+              "pct": 100,
+              "time": null,
+              "properties": {
+                "strokeDashoffset": 0
+              }
+            }
+          ],
+          "path": null
+        }
+      ],
+      "traces": [],
+      "cssKeyframes": [],
+      "anime": []
+    },
+    {
+      "composition": "f3",
+      "source": "compositions/frames/03-coordination.html",
+      "tweens": [
+        {
+          "id": "__unresolved__-fromTo-__raw:t",
+          "target": "__unresolved__",
+          "method": "fromTo",
+          "start": null,
+          "duration": 0.5,
+          "end": null,
+          "totalDuration": null,
+          "position": "__raw:t",
+          "ease": "power4.out",
+          "unresolved": [
+            "start",
+            "target",
+            "totalDuration",
+            "propertyExpressions"
+          ],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": null,
+              "properties": {
+                "opacity": 0,
+                "x": "__raw:dx",
+                "y": "__raw:dx?0:45"
+              }
+            },
+            {
+              "pct": 100,
+              "time": null,
+              "properties": {
+                "opacity": 1,
+                "x": 0,
+                "y": 0
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "__unresolved__-to-__raw:t",
+          "target": "__unresolved__",
+          "method": "to",
+          "start": null,
+          "duration": 1.2,
+          "end": null,
+          "totalDuration": 1.2,
+          "position": "__raw:t",
+          "ease": "power2.inOut",
+          "unresolved": [
+            "start",
+            "target",
+            "endpointProperties",
+            "propertyExpressions"
+          ],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": null,
+              "properties": {
+                "x": 0,
+                "y": 0
+              }
+            },
+            {
+              "pct": 100,
+              "time": null,
+              "properties": {
+                "scale": "__raw:s",
+                "x": "__raw:x",
+                "y": "__raw:y"
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "__unresolved__-fromTo-__raw:t-other",
+          "target": "__unresolved__",
+          "method": "fromTo",
+          "group": "other",
+          "start": null,
+          "duration": 0.65,
+          "end": null,
+          "totalDuration": 0.65,
+          "position": "__raw:t",
+          "ease": "power2.out",
+          "unresolved": [
+            "start",
+            "target",
+            "propertyExpressions"
+          ],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": null,
+              "properties": {
+                "strokeDasharray": "__raw:n",
+                "strokeDashoffset": "__raw:n"
+              }
+            },
+            {
+              "pct": 100,
+              "time": null,
+              "properties": {
+                "strokeDashoffset": 0
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "#f3-harm-screen-fromTo-8200-visual",
+          "target": "#f3-harm-screen",
+          "method": "fromTo",
+          "group": "visual",
+          "start": 8.2,
+          "duration": 0.25,
+          "end": 8.45,
+          "totalDuration": 0.25,
+          "position": 8.2,
+          "ease": "power1.out",
+          "unresolved": [],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 8.2,
+              "properties": {
+                "opacity": 0
+              }
+            },
+            {
+              "pct": 100,
+              "time": 8.45,
+              "properties": {
+                "opacity": 1
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "#f3-good-fromTo-8200-visual",
+          "target": "#f3-good",
+          "method": "fromTo",
+          "group": "visual",
+          "start": 8.2,
+          "duration": 0.2,
+          "end": 8.4,
+          "totalDuration": 0.2,
+          "position": 8.2,
+          "ease": "power1.out",
+          "unresolved": [],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 8.2,
+              "properties": {
+                "opacity": 1
+              }
+            },
+            {
+              "pct": 100,
+              "time": 8.4,
+              "properties": {
+                "opacity": 0
+              }
+            }
+          ],
+          "path": null
+        }
+      ],
+      "traces": [],
+      "cssKeyframes": [],
+      "anime": []
+    },
+    {
+      "composition": "f4",
+      "source": "compositions/frames/04-consequences.html",
+      "tweens": [
+        {
+          "id": "__unresolved__-fromTo-__raw:t",
+          "target": "__unresolved__",
+          "method": "fromTo",
+          "start": null,
+          "duration": 0.5,
+          "end": null,
+          "totalDuration": null,
+          "position": "__raw:t",
+          "ease": "power4.out",
+          "unresolved": [
+            "start",
+            "target",
+            "totalDuration",
+            "propertyExpressions"
+          ],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": null,
+              "properties": {
+                "opacity": 0,
+                "x": "__raw:dx",
+                "y": "__raw:dx?0:45"
+              }
+            },
+            {
+              "pct": 100,
+              "time": null,
+              "properties": {
+                "opacity": 1,
+                "x": 0,
+                "y": 0
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "__unresolved__-to-__raw:t",
+          "target": "__unresolved__",
+          "method": "to",
+          "start": null,
+          "duration": 1.2,
+          "end": null,
+          "totalDuration": 1.2,
+          "position": "__raw:t",
+          "ease": "power2.inOut",
+          "unresolved": [
+            "start",
+            "target",
+            "endpointProperties",
+            "propertyExpressions"
+          ],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": null,
+              "properties": {
+                "x": 0,
+                "y": 0
+              }
+            },
+            {
+              "pct": 100,
+              "time": null,
+              "properties": {
+                "scale": "__raw:s",
+                "x": "__raw:x",
+                "y": "__raw:y"
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "__unresolved__-fromTo-__raw:t-other",
+          "target": "__unresolved__",
+          "method": "fromTo",
+          "group": "other",
+          "start": null,
+          "duration": 0.65,
+          "end": null,
+          "totalDuration": 0.65,
+          "position": "__raw:t",
+          "ease": "power2.out",
+          "unresolved": [
+            "start",
+            "target",
+            "propertyExpressions"
+          ],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": null,
+              "properties": {
+                "strokeDasharray": "__raw:n",
+                "strokeDashoffset": "__raw:n"
+              }
+            },
+            {
+              "pct": 100,
+              "time": null,
+              "properties": {
+                "strokeDashoffset": 0
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "#f4-world-fromTo-4500",
+          "target": "#f4-world",
+          "method": "fromTo",
+          "start": 4.5,
+          "duration": 1.1,
+          "end": 5.6,
+          "totalDuration": 1.1,
+          "position": 4.5,
+          "ease": "power2.inOut",
+          "unresolved": [
+            "endpointProperties"
+          ],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 4.5,
+              "properties": {
+                "scale": 1
+              }
+            },
+            {
+              "pct": 100,
+              "time": 5.6,
+              "properties": {
+                "scale": 1.22,
+                "x": 0,
+                "y": 0
+              }
+            }
+          ],
+          "path": null
+        }
+      ],
+      "traces": [],
+      "cssKeyframes": [],
+      "anime": []
+    },
+    {
+      "composition": "f5",
+      "source": "compositions/frames/05-protected.html",
+      "tweens": [
+        {
+          "id": "__unresolved__-fromTo-__raw:t",
+          "target": "__unresolved__",
+          "method": "fromTo",
+          "start": null,
+          "duration": 0.5,
+          "end": null,
+          "totalDuration": null,
+          "position": "__raw:t",
+          "ease": "power4.out",
+          "unresolved": [
+            "start",
+            "target",
+            "totalDuration",
+            "propertyExpressions"
+          ],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": null,
+              "properties": {
+                "opacity": 0,
+                "x": "__raw:dx",
+                "y": "__raw:dx?0:45"
+              }
+            },
+            {
+              "pct": 100,
+              "time": null,
+              "properties": {
+                "opacity": 1,
+                "x": 0,
+                "y": 0
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "__unresolved__-to-__raw:t",
+          "target": "__unresolved__",
+          "method": "to",
+          "start": null,
+          "duration": 1.2,
+          "end": null,
+          "totalDuration": 1.2,
+          "position": "__raw:t",
+          "ease": "power2.inOut",
+          "unresolved": [
+            "start",
+            "target",
+            "endpointProperties",
+            "propertyExpressions"
+          ],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": null,
+              "properties": {
+                "x": 0,
+                "y": 0
+              }
+            },
+            {
+              "pct": 100,
+              "time": null,
+              "properties": {
+                "scale": "__raw:s",
+                "x": "__raw:x",
+                "y": "__raw:y"
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "__unresolved__-fromTo-__raw:t-other",
+          "target": "__unresolved__",
+          "method": "fromTo",
+          "group": "other",
+          "start": null,
+          "duration": 0.65,
+          "end": null,
+          "totalDuration": 0.65,
+          "position": "__raw:t",
+          "ease": "power2.out",
+          "unresolved": [
+            "start",
+            "target",
+            "propertyExpressions"
+          ],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": null,
+              "properties": {
+                "strokeDasharray": "__raw:n",
+                "strokeDashoffset": "__raw:n"
+              }
+            },
+            {
+              "pct": 100,
+              "time": null,
+              "properties": {
+                "strokeDashoffset": 0
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "#f5-live-world-fromTo-1600-position",
+          "target": "#f5-live-world",
+          "method": "fromTo",
+          "group": "position",
+          "start": 1.6,
+          "duration": 3.2,
+          "end": 4.8,
+          "totalDuration": 3.2,
+          "position": 1.6,
+          "ease": "power2.inOut",
+          "unresolved": [],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 1.6,
+              "properties": {
+                "y": -250
+              }
+            },
+            {
+              "pct": 100,
+              "time": 4.8,
+              "properties": {
+                "y": -810
+              }
+            }
+          ],
+          "path": null
+        }
+      ],
+      "traces": [],
+      "cssKeyframes": [],
+      "anime": []
+    },
+    {
+      "composition": "f6",
+      "source": "compositions/frames/06-misses.html",
+      "tweens": [
+        {
+          "id": "__unresolved__-fromTo-__raw:t",
+          "target": "__unresolved__",
+          "method": "fromTo",
+          "start": null,
+          "duration": 0.5,
+          "end": null,
+          "totalDuration": null,
+          "position": "__raw:t",
+          "ease": "power4.out",
+          "unresolved": [
+            "start",
+            "target",
+            "totalDuration",
+            "propertyExpressions"
+          ],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": null,
+              "properties": {
+                "opacity": 0,
+                "x": "__raw:dx",
+                "y": "__raw:dx?0:45"
+              }
+            },
+            {
+              "pct": 100,
+              "time": null,
+              "properties": {
+                "opacity": 1,
+                "x": 0,
+                "y": 0
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "__unresolved__-to-__raw:t",
+          "target": "__unresolved__",
+          "method": "to",
+          "start": null,
+          "duration": 1.2,
+          "end": null,
+          "totalDuration": 1.2,
+          "position": "__raw:t",
+          "ease": "power2.inOut",
+          "unresolved": [
+            "start",
+            "target",
+            "endpointProperties",
+            "propertyExpressions"
+          ],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": null,
+              "properties": {
+                "x": 0,
+                "y": 0
+              }
+            },
+            {
+              "pct": 100,
+              "time": null,
+              "properties": {
+                "scale": "__raw:s",
+                "x": "__raw:x",
+                "y": "__raw:y"
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "__unresolved__-fromTo-__raw:t-other",
+          "target": "__unresolved__",
+          "method": "fromTo",
+          "group": "other",
+          "start": null,
+          "duration": 0.65,
+          "end": null,
+          "totalDuration": 0.65,
+          "position": "__raw:t",
+          "ease": "power2.out",
+          "unresolved": [
+            "start",
+            "target",
+            "propertyExpressions"
+          ],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": null,
+              "properties": {
+                "strokeDasharray": "__raw:n",
+                "strokeDashoffset": "__raw:n"
+              }
+            },
+            {
+              "pct": 100,
+              "time": null,
+              "properties": {
+                "strokeDashoffset": 0
+              }
+            }
+          ],
+          "path": null
+        }
+      ],
+      "traces": [],
+      "cssKeyframes": [],
+      "anime": []
+    },
+    {
+      "composition": "f7",
+      "source": "compositions/frames/07-evidence.html",
+      "tweens": [
+        {
+          "id": "__unresolved__-fromTo-__raw:t",
+          "target": "__unresolved__",
+          "method": "fromTo",
+          "start": null,
+          "duration": 0.5,
+          "end": null,
+          "totalDuration": null,
+          "position": "__raw:t",
+          "ease": "power4.out",
+          "unresolved": [
+            "start",
+            "target",
+            "totalDuration",
+            "propertyExpressions"
+          ],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": null,
+              "properties": {
+                "opacity": 0,
+                "x": "__raw:dx",
+                "y": "__raw:dx?0:45"
+              }
+            },
+            {
+              "pct": 100,
+              "time": null,
+              "properties": {
+                "opacity": 1,
+                "x": 0,
+                "y": 0
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "__unresolved__-to-__raw:t",
+          "target": "__unresolved__",
+          "method": "to",
+          "start": null,
+          "duration": 1.2,
+          "end": null,
+          "totalDuration": 1.2,
+          "position": "__raw:t",
+          "ease": "power2.inOut",
+          "unresolved": [
+            "start",
+            "target",
+            "endpointProperties",
+            "propertyExpressions"
+          ],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": null,
+              "properties": {
+                "x": 0,
+                "y": 0
+              }
+            },
+            {
+              "pct": 100,
+              "time": null,
+              "properties": {
+                "scale": "__raw:s",
+                "x": "__raw:x",
+                "y": "__raw:y"
+              }
+            }
+          ],
+          "path": null
+        },
+        {
+          "id": "__unresolved__-fromTo-__raw:t-other",
+          "target": "__unresolved__",
+          "method": "fromTo",
+          "group": "other",
+          "start": null,
+          "duration": 0.65,
+          "end": null,
+          "totalDuration": 0.65,
+          "position": "__raw:t",
+          "ease": "power2.out",
+          "unresolved": [
+            "start",
+            "target",
+            "propertyExpressions"
+          ],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": null,
+              "properties": {
+                "strokeDasharray": "__raw:n",
+                "strokeDashoffset": "__raw:n"
+              }
+            },
+            {
+              "pct": 100,
+              "time": null,
+              "properties": {
+                "strokeDashoffset": 0
+              }
+            }
+          ],
+          "path": null
+        }
+      ],
+      "traces": [],
+      "cssKeyframes": [],
+      "anime": []
+    },
+    {
+      "composition": "rail",
+      "source": "compositions/rail.html",
+      "tweens": [
+        {
+          "id": "#progress-fromTo-0-scale",
+          "target": "#progress",
+          "method": "fromTo",
+          "group": "scale",
+          "start": 0,
+          "duration": 90,
+          "end": 90,
+          "totalDuration": 90,
+          "position": 0,
+          "ease": "none",
+          "unresolved": [],
+          "keyframeBasis": "tween-endpoints",
+          "shape": "flat",
+          "keyframes": [
+            {
+              "pct": 0,
+              "time": 0,
+              "properties": {
+                "scaleX": 0
+              }
+            },
+            {
+              "pct": 100,
+              "time": 90,
+              "properties": {
+                "scaleX": 1
+              }
+            }
+          ],
+          "path": null
+        }
+      ],
+      "traces": [],
+      "cssKeyframes": [],
+      "anime": []
+    },
+    {
+      "composition": "captions",
+      "source": "compositions/captions.html",
+      "tweens": [],
+      "traces": [],
+      "cssKeyframes": [],
+      "anime": []
+    }
+  ],
+  "_meta": {
+    "version": "0.8.164",
+    "latestVersion": "0.8.164",
+    "updateAvailable": false
+  }
+}

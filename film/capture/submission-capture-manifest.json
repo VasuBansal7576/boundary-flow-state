@@ -1,0 +1,78 @@
+{
+  "run_id": "explore-20261016-161209",
+  "type": "native trace close-ups captured after execution; distinct from original live footage",
+  "captures": [
+    {
+      "name": "landing",
+      "url": "http://127.0.0.1:8177/",
+      "selector": "viewport",
+      "at": "2026-10-16T11:56:07.367Z"
+    },
+    {
+      "name": "handoff",
+      "url": "http://127.0.0.1:8177/#agents?arm=baseline&agent=agent-204&step=4",
+      "selector": "viewport",
+      "at": "2026-10-16T11:56:08.274Z"
+    },
+    {
+      "name": "handoff-message",
+      "url": "http://127.0.0.1:8177/#agents?arm=baseline&agent=agent-204&step=4",
+      "selector": "locator('#step-4 [data-source=\"msg-agent-060-6\"]')",
+      "at": "2026-10-16T11:56:08.342Z"
+    },
+    {
+      "name": "handoff-request",
+      "url": "http://127.0.0.1:8177/#agents?arm=baseline&agent=agent-204&step=4",
+      "selector": "locator('#step-4>summary')",
+      "at": "2026-10-16T11:56:08.409Z"
+    },
+    {
+      "name": "leak-card",
+      "url": "http://127.0.0.1:8177/#agents?arm=baseline&agent=agent-192&step=6",
+      "selector": "locator('#step-6 .result-card')",
+      "at": "2026-10-16T11:56:08.766Z"
+    },
+    {
+      "name": "leak",
+      "url": "http://127.0.0.1:8177/#agents?arm=baseline&agent=agent-192&step=6",
+      "selector": "viewport",
+      "at": "2026-10-16T11:56:08.857Z"
+    },
+    {
+      "name": "block-card",
+      "url": "http://127.0.0.1:8177/#agents?arm=protected&agent=agent-098&step=2",
+      "selector": "locator('#step-2 .result-card')",
+      "at": "2026-10-16T11:56:09.780Z"
+    },
+    {
+      "name": "block",
+      "url": "http://127.0.0.1:8177/#agents?arm=protected&agent=agent-098&step=2",
+      "selector": "viewport",
+      "at": "2026-10-16T11:56:09.864Z"
+    },
+    {
+      "name": "plant-card",
+      "url": "http://127.0.0.1:8177/#agents?arm=protected&agent=agent-121&step=2",
+      "selector": "locator('#step-2 .result-card')",
+      "at": "2026-10-16T11:56:10.029Z"
+    },
+    {
+      "name": "plant",
+      "url": "http://127.0.0.1:8177/#agents?arm=protected&agent=agent-121&step=2",
+      "selector": "viewport",
+      "at": "2026-10-16T11:56:10.113Z"
+    },
+    {
+      "name": "exposure",
+      "url": "http://127.0.0.1:8177/#evidence",
+      "selector": "viewport",
+      "at": "2026-10-16T11:56:10.753Z"
+    },
+    {
+      "name": "audit",
+      "url": "http://127.0.0.1:8177/#audit",
+      "selector": "viewport",
+      "at": "2026-10-16T11:56:10.878Z"
+    }
+  ]
+}

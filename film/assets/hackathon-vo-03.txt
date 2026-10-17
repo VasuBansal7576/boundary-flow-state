@@ -1,0 +1,1 @@
+Coordination combines the open-source Swarms Concurrent Workflow with our peer broker. Agents share observations, send messages, and claim work. Twenty-four model-turn slots serve the population. This is the original execution recording. Here, agent eighty-four creates a housing report in the granted team workspace and shares its returned identifier.

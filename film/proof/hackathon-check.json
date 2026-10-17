@@ -1,0 +1,123 @@
+
+> check
+> npx --yes hyperframes@0.8.167 check --json
+
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 14
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 1,
+    "findings": [
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 203.139,
+        "selector": "#f10-life",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 160,
+          "top": 827.54,
+          "right": 1299.58,
+          "bottom": 889.73,
+          "width": 1139.58,
+          "height": 62.19
+        },
+        "containerSelector": "#f10 > div:nth-of-type(1) > p:nth-of-type(2)",
+        "text": "829 / 829 known-plan audits + completions confirmed after drain 5 unknown issuances excluded · median reporting delay ≈ 25 minutes · 3 extra same-thread coverage turns",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/10-results.html",
+        "bbox": {
+          "x": 160,
+          "y": 827.54,
+          "width": 1139.58,
+          "height": 62.19
+        },
+        "firstSeen": 203.139,
+        "lastSeen": 203.139,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          203.139
+        ]
+      }
+    ],
+    "duration": 240,
+    "samples": [
+      13.333,
+      40,
+      66.667,
+      93.333,
+      120,
+      146.667,
+      173.333,
+      200,
+      226.667
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 1,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      13.333,
+      66.667,
+      120,
+      173.333,
+      226.667
+    ],
+    "checked": 51,
+    "passed": 51
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": false,
+    "files": [],
+    "times": [],
+    "findingFiles": []
+  },
+  "_meta": {
+    "version": "0.8.167",
+    "latestVersion": "0.8.167",
+    "updateAvailable": false
+  }
+}

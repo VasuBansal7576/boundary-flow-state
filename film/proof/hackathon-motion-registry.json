@@ -1,0 +1,1710 @@
+{
+  "query": "camera zoom into real interface step by step workflow handoff",
+  "tier": "words",
+  "tier_detail": "local word match",
+  "dropped": 0,
+  "unindexed": 0,
+  "shown": 100,
+  "total": 447,
+  "report_gap": "npx hyperframes feedback --search-miss \"camera zoom into real interface step by step workflow handoff\" --wanted \"<the move you needed>\" --tier words",
+  "results": [
+    {
+      "name": "cinematic-zoom",
+      "type": "block",
+      "title": "Cinematic Zoom",
+      "description": "Shader transition with dramatic zoom blur",
+      "tags": [
+        "transition",
+        "shader"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 4,
+      "preview": {
+        "video": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/cinematic-zoom.mp4",
+        "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/cinematic-zoom.png"
+      }
+    },
+    {
+      "name": "zoom-through-transition",
+      "type": "component",
+      "title": "Zoom Through Transition",
+      "description": "A transition that zooms through a focal card into the next scene.",
+      "tags": [
+        "transition-primitive"
+      ],
+      "preview": {
+        "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/components/zoom-through-transition.png"
+      }
+    },
+    {
+      "name": "parallax-zoom",
+      "type": "component",
+      "title": "Parallax Zoom",
+      "description": "Center card scales up to fill the frame while siblings parallax outward — inspired by the eBay Playbook hero transition",
+      "tags": [
+        "transition",
+        "zoom",
+        "parallax",
+        "grid",
+        "hero"
+      ],
+      "preview": {
+        "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/components/parallax-zoom.png"
+      }
+    },
+    {
+      "name": "camera-dolly-zoom",
+      "type": "block",
+      "title": "Dolly Zoom (Vertigo Shot)",
+      "description": "Camera tracks toward or away from the subject while the field of view changes the opposite way, so the subject holds its frame size while the background collapses behind it or rushes in. Focal length is solved from dolly distance every frame against d * tan(FOV/2) = const, not keyframed beside it. Requires depth: the subject sits on the z = 0 plane and the content behind it must be layered or genuinely 3D (translateZ at two or more distinct depths) -- a flat element gains nothing from this move.",
+      "tags": [
+        "camera",
+        "depth",
+        "3d",
+        "cinematic"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 4
+    },
+    {
+      "name": "cursor-zoom-follow",
+      "type": "component",
+      "title": "Zoom Follow Cursor",
+      "description": "Screen-recording auto-zoom: the camera pushes in toward each upcoming click, trails the cursor on a smooth spring, marks every click with a press and a ring, then eases back out to the full screen as the cursor leaves.",
+      "tags": [
+        "cursor",
+        "camera",
+        "zoom",
+        "screen-recording",
+        "click",
+        "product-demo"
+      ]
+    },
+    {
+      "name": "ui-focus-zoom",
+      "type": "component",
+      "title": "UI Focus Zoom",
+      "description": "A full app surface establishes with one settle, then the camera zooms and pans to an anchored region on its cue and holds the zoomed state, with an optional soft focus halo at the anchor. The surface is a slot with a token-styled skeleton default.",
+      "tags": [
+        "camera",
+        "product-demo",
+        "zoom",
+        "focus",
+        "pan",
+        "slot",
+        "servo"
+      ]
+    },
+    {
+      "name": "yt-camera-move",
+      "type": "component",
+      "title": "Camera Punch-In",
+      "description": "Dynamic zoom, slide, and 3D tilt-pan helpers for any wrapper (video, include, card) with cubic-easing defaults and an edge-defocus pulse overlay",
+      "tags": [
+        "camera",
+        "zoom",
+        "effect",
+        "creator"
+      ]
+    },
+    {
+      "name": "camera-rig-depth-stack",
+      "type": "component",
+      "title": "Camera Rig Depth Stack",
+      "description": "A 3D camera-rig-style card stack with depth, parallax, and focus shift.",
+      "tags": [
+        "advanced-motion",
+        "hyperframes-native"
+      ],
+      "preview": {
+        "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/components/camera-rig-depth-stack.png"
+      }
+    },
+    {
+      "name": "onboarding-stepper-flow",
+      "type": "component",
+      "title": "Onboarding Stepper Flow",
+      "description": "A composed onboarding flow with milestone rail, active step card, and next-action button",
+      "tags": [
+        "ui-flow",
+        "onboarding",
+        "stepper"
+      ],
+      "preview": {
+        "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/components/onboarding-stepper-flow.png"
+      }
+    },
+    {
+      "name": "camera-scan-gate",
+      "type": "component",
+      "title": "Camera Scan Gate",
+      "description": "A camera and QR recognition moment with a viewfinder sweep, bracket lock, confirmation pulse, and verified next beat.",
+      "tags": [
+        "prop",
+        "ui-props",
+        "camera",
+        "qr",
+        "scan",
+        "recognition",
+        "interaction",
+        "demonstrate"
+      ]
+    },
+    {
+      "name": "frost-sequence-camera-orbit",
+      "type": "block",
+      "title": "Frost Sequence Camera Orbit",
+      "description": "An orbiting camera follows an ice logo as it breaks apart, reforms into two text moments, and fades.",
+      "tags": [
+        "3d-motion",
+        "ice",
+        "frost",
+        "camera-orbit",
+        "logo",
+        "particles",
+        "webgpu",
+        "two-headlines"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 22.5,
+      "preview": {
+        "video": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/frost-sequence-camera-orbit.mp4",
+        "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/frost-sequence-camera-orbit.png"
+      }
+    },
+    {
+      "name": "camera-shake",
+      "type": "component",
+      "title": "Camera Shake",
+      "description": "Procedural handheld, telephoto and rig camera shake for any wrapper: nine measured profiles with per-lens projection, closed-form and seek-safe",
+      "tags": [
+        "camera",
+        "shake",
+        "handheld",
+        "effect",
+        "cinematic"
+      ]
+    },
+    {
+      "name": "transitions-scale",
+      "type": "block",
+      "title": "Scale Transitions",
+      "description": "Showcase of scale and zoom transitions",
+      "tags": [
+        "transition",
+        "showcase"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 15,
+      "preview": {
+        "video": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/transitions-scale.mp4",
+        "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/transitions-scale.png"
+      }
+    },
+    {
+      "name": "scroll-camera-story",
+      "type": "component",
+      "title": "Scroll Camera Story",
+      "description": "A compressed forced-scroll cinematic pass: a tall scene of slotted sections travels past the camera top to bottom, depth layers parallax at different rates, each section rises as the camera reaches it, and the pass decelerates into a held final section.",
+      "tags": [
+        "camera",
+        "scroll",
+        "parallax",
+        "story",
+        "sections",
+        "slot",
+        "servo"
+      ]
+    },
+    {
+      "name": "code-scroll",
+      "type": "block",
+      "title": "Code Scroll To Line",
+      "description": "The camera scrolls a long file to bring a target line to center and spotlights it — for walking through real modules.",
+      "tags": [
+        "code",
+        "code-animation",
+        "scroll",
+        "developer"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 6,
+      "preview": {
+        "video": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/code-scroll.mp4",
+        "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/code-scroll.png"
+      }
+    },
+    {
+      "name": "tracking-in",
+      "type": "component",
+      "title": "Tracking In",
+      "description": "A precise letter-spacing reveal for premium headings and interface labels",
+      "tags": [
+        "motion-primitive",
+        "text",
+        "reveal",
+        "typography"
+      ],
+      "preview": {
+        "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/components/tracking-in.png"
+      }
+    },
+    {
+      "name": "caption-camera-follow",
+      "type": "component",
+      "title": "Camera Follow Captions",
+      "description": "One sentence written across a world far larger than the frame. Each word is sized against everything already written, so the block grows geometrically and the camera pulls back at a steady rate to keep landing the new word at the same size. Old words stay lit and simply become small.",
+      "tags": [
+        "captions",
+        "caption-style",
+        "camera",
+        "typography",
+        "motion-primitive",
+        "portrait"
+      ]
+    },
+    {
+      "name": "vfx-iphone-device",
+      "type": "block",
+      "title": "iPhone & MacBook 3D Showcase",
+      "description": "Real GLTF iPhone 15 Pro Max and MacBook Pro models with live HTML-in-Canvas screen content, morphing glass lens, product review camera choreography, and 360° turntable.",
+      "tags": [
+        "html-in-canvas",
+        "3d",
+        "device",
+        "iphone",
+        "macbook",
+        "gltf"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 15,
+      "preview": {
+        "video": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/vfx-iphone-device.mp4",
+        "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/vfx-iphone-device.png"
+      }
+    },
+    {
+      "name": "claude-exchange",
+      "type": "block",
+      "title": "Claude Exchange",
+      "description": "A portrait Claude-style exchange types a prompt, works through search and reasoning steps, then streams a detailed answer with citations and actions",
+      "tags": [
+        "showcase",
+        "mock-ui",
+        "ai",
+        "chat",
+        "vertical",
+        "ad-template"
+      ],
+      "dimensions": {
+        "width": 1080,
+        "height": 1920
+      },
+      "duration": 21.4,
+      "preview": {
+        "video": "https://static.heygen.ai/hyperframes/templates/promoted/254fe4bd8a3f00c1e70ac5e38a1bce25060f7590/claude-exchange/preview.mp4",
+        "poster": "https://static.heygen.ai/hyperframes/templates/promoted/254fe4bd8a3f00c1e70ac5e38a1bce25060f7590/claude-exchange/poster.jpg"
+      }
+    },
+    {
+      "name": "settings-toggle-flow",
+      "type": "component",
+      "title": "Settings Toggle Flow",
+      "description": "A composed settings flow with preference rows, toggle switches, and active-state feedback",
+      "tags": [
+        "ui-flow",
+        "settings",
+        "toggle"
+      ],
+      "preview": {
+        "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/components/settings-toggle-flow.png"
+      }
+    },
+    {
+      "name": "signup-flow",
+      "type": "component",
+      "title": "Signup Flow",
+      "description": "A composed signup flow with social action, email field, password field, and submit button",
+      "tags": [
+        "ui-flow",
+        "signup",
+        "form"
+      ],
+      "preview": {
+        "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/components/signup-flow.png"
+      }
+    },
+    {
+      "name": "whip-pan",
+      "type": "block",
+      "title": "Whip Pan",
+      "description": "Shader transition simulating a fast camera whip pan",
+      "tags": [
+        "transition",
+        "shader"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 4,
+      "preview": {
+        "video": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/whip-pan.mp4",
+        "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/whip-pan.png"
+      }
+    },
+    {
+      "name": "us-map-flow",
+      "type": "block",
+      "title": "US Flow Map",
+      "description": "Animated connection arcs between US cities over a base map — composable origin-destination flow visualization",
+      "tags": [
+        "data",
+        "map",
+        "geography",
+        "usa",
+        "flow",
+        "connections",
+        "arcs"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 12,
+      "preview": {
+        "video": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/us-map-flow.mp4",
+        "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/us-map-flow.png"
+      }
+    },
+    {
+      "name": "parallax-unzoom",
+      "type": "component",
+      "title": "Parallax Unzoom",
+      "description": "Reveal transition — focus card scales down from full frame as siblings parallax in to form a grid (reverse of parallax-zoom)",
+      "tags": [
+        "transition",
+        "reveal",
+        "unzoom",
+        "parallax",
+        "grid",
+        "hero"
+      ],
+      "preview": {
+        "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/components/parallax-unzoom.png"
+      }
+    },
+    {
+      "name": "agent-cursor",
+      "type": "component",
+      "title": "Agent Cursor",
+      "description": "An AI agent operating a UI: a cursor with an accent name label that types out each step, clicks each target with a small ring, and ends on a check.",
+      "tags": [
+        "cursor",
+        "motion-primitive",
+        "agent",
+        "ai",
+        "status",
+        "click"
+      ]
+    },
+    {
+      "name": "rack-focus",
+      "type": "block",
+      "title": "Rack Focus",
+      "description": "A focus pull with real aperture bokeh: the focal plane travels from a near subject to a far one, so one resolves as the other blows into hard-edged polygon discs that clip to a cat's eye toward the corners. A focus pull only reads against content at two clearly separated depths, so this block carries its own depth-layered night exterior and puts both subject depths on variables.",
+      "tags": [
+        "webgl",
+        "shader",
+        "camera",
+        "depth",
+        "cinematic",
+        "showcase"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 6
+    },
+    {
+      "name": "hw-pipeline",
+      "type": "block",
+      "title": "Hand-Drawn Flowchart",
+      "description": "Wobbled boxes with handwritten labels joined by curved connectors, drawing on in sequence from a node list",
+      "tags": [
+        "handwritten",
+        "diagram",
+        "data-viz",
+        "overlay"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 7
+    },
+    {
+      "name": "north-korea-locked-down",
+      "type": "block",
+      "title": "North Korea Locked Down",
+      "description": "Realistic map zoom into North Korea with a red scribble circle, locked-down pop-up label, and reddish editorial wash.",
+      "tags": [
+        "showcase",
+        "map",
+        "annotation",
+        "youtube",
+        "kinetic"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 7,
+      "preview": {
+        "video": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/north-korea-locked-down.mp4",
+        "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/north-korea-locked-down.png"
+      }
+    },
+    {
+      "name": "orbit-card",
+      "type": "block",
+      "title": "Orbit Card",
+      "description": "A single feature card orbits a dot sphere on approved Blender camera motion.",
+      "tags": [
+        "3d-motion",
+        "cards",
+        "feature-reveal",
+        "dots",
+        "orbit",
+        "blender-motion",
+        "sphere"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 10,
+      "preview": {
+        "video": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/orbit-card.mp4",
+        "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/orbit-card.png"
+      }
+    },
+    {
+      "name": "cursor-glyph-trail",
+      "type": "component",
+      "title": "Cursor Glyph Trail",
+      "description": "A tutorial cursor path: on a settings screen the arrow clicks through three steps, leaving a dotted trail spaced evenly by distance and a numbered marker at each click; each step's trail fades as the next move begins.",
+      "tags": [
+        "cursor",
+        "motion-primitive",
+        "demonstrate",
+        "trail",
+        "tutorial",
+        "steps",
+        "deterministic"
+      ]
+    },
+    {
+      "name": "filmed-screen",
+      "type": "component",
+      "title": "Filmed Screen",
+      "description": "Your scene, filmed off a screen: perspective, depth of field that follows an element you name, LED sub-pixels and per-shot colour grades. Shots glide into each other, focus racks between elements, and the focused element stays sharp.",
+      "tags": [
+        "filmed",
+        "screen",
+        "monitor",
+        "led",
+        "camera",
+        "depth-of-field",
+        "html-in-canvas",
+        "shader",
+        "webgl",
+        "effect"
+      ],
+      "preview": {
+        "video": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/components/filmed-screen.mp4",
+        "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/components/filmed-screen.png"
+      }
+    },
+    {
+      "name": "toggle-flip",
+      "type": "component",
+      "title": "Toggle Flip",
+      "description": "An oversized UI toggle switch that flips with real physicality: thumb overshoot, track color crossfade, and a soft press-compress before release. The reference prop of the ui-props family.",
+      "tags": [
+        "prop",
+        "ui-props",
+        "toggle",
+        "interaction",
+        "reference-prop",
+        "demonstrate"
+      ]
+    },
+    {
+      "name": "constellation-hub",
+      "type": "component",
+      "title": "Constellation Hub",
+      "description": "Feature nodes brighten in narration order as real-length SVG connectors draw outward from a fixed central hub, then settle into one lockup.",
+      "tags": [
+        "motion-primitive",
+        "feature-tour",
+        "hub",
+        "nodes",
+        "connector",
+        "reveal"
+      ]
+    },
+    {
+      "name": "code-3d-extrude",
+      "type": "block",
+      "title": "Code 3D Extrude",
+      "description": "Syntax-highlighted code on a lit, beveled 3D slab that rotates through real space and settles to a readable rest — true WebGL depth and lighting, not a 2D transform.",
+      "tags": [
+        "code",
+        "code-animation",
+        "3d",
+        "webgl",
+        "developer"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 8,
+      "preview": {
+        "video": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/code-3d-extrude.mp4",
+        "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/code-3d-extrude.png"
+      }
+    },
+    {
+      "name": "ai-answer-rank",
+      "type": "block",
+      "title": "AI Answer Rank",
+      "description": "Is your brand in the AI answer? A question types into a chat card, the assistant answers with a ranked list of three picks, then re-ranks: the promoted brand slides into its slot, the picks below step down, and the brand row lands with the one accent highlight and a check. For answer-engine and AI-visibility marketing",
+      "tags": [
+        "mock-ui",
+        "ai",
+        "chat",
+        "ranking",
+        "list",
+        "marketing",
+        "ad-template",
+        "square"
+      ],
+      "dimensions": {
+        "width": 1080,
+        "height": 1080
+      },
+      "duration": 9
+    },
+    {
+      "name": "pull-back-reveal",
+      "type": "component",
+      "title": "Pull Back Reveal",
+      "description": "A tight stat detail holds, then one decelerating camera pull-back reveals the headline and supporting cards that recontextualize it.",
+      "tags": [
+        "motion-primitive",
+        "camera",
+        "pull-back",
+        "reveal",
+        "recontextualize"
+      ]
+    },
+    {
+      "name": "carousel-orbit-5",
+      "type": "block",
+      "title": "Orbit Carousel 5",
+      "description": "Image cards on a spinning 3D Fibonacci sphere, billboarded to the camera, sized by camera distance (Orbit style 5); 24 image slots.",
+      "tags": [
+        "carousel",
+        "gallery",
+        "images",
+        "showcase",
+        "orbit",
+        "3d"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 6
+    },
+    {
+      "name": "carousel-orbit-4",
+      "type": "block",
+      "title": "Orbit Carousel 4",
+      "description": "Image cards on a spinning 3D Fibonacci sphere, billboarded to the camera, sized by camera distance (Orbit style 4); 24 image slots.",
+      "tags": [
+        "carousel",
+        "gallery",
+        "images",
+        "showcase",
+        "orbit",
+        "3d"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 6
+    },
+    {
+      "name": "carousel-orbit-3",
+      "type": "block",
+      "title": "Orbit Carousel 3",
+      "description": "Image cards on a spinning 3D Fibonacci sphere, billboarded to the camera, sized by camera distance (Orbit style 3); 24 image slots.",
+      "tags": [
+        "carousel",
+        "gallery",
+        "images",
+        "showcase",
+        "orbit",
+        "3d"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 6
+    },
+    {
+      "name": "carousel-orbit-2",
+      "type": "block",
+      "title": "Orbit Carousel 2",
+      "description": "Image cards on a spinning 3D Fibonacci sphere, billboarded to the camera, sized by camera distance (Orbit style 2); 24 image slots.",
+      "tags": [
+        "carousel",
+        "gallery",
+        "images",
+        "showcase",
+        "orbit",
+        "3d"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 6
+    },
+    {
+      "name": "carousel-orbit-1",
+      "type": "block",
+      "title": "Orbit Carousel 1",
+      "description": "Image cards on a spinning 3D Fibonacci sphere, billboarded to the camera, sized by camera distance (Orbit style 1); 24 image slots.",
+      "tags": [
+        "carousel",
+        "gallery",
+        "images",
+        "showcase",
+        "orbit",
+        "3d"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 6
+    },
+    {
+      "name": "hw-boil",
+      "type": "component",
+      "title": "Hand-Drawn Boil",
+      "description": "Hand-drawn jitter that re-poses every N frames, as seek-safe helpers: pose derives from quantized timeline time through a seeded hash; includes the shared onUpdate dispatcher, a wobbled-ellipse path generator, the boil pose control (off/calm/lively over the family-locked frameDrop), a curvature-adaptive pen-velocity ease, and the completed stroke matrix (plain/soft/sharp/spray — spray is index-seeded deterministic dots, no turbulence) with texture-safe draw-on",
+      "tags": [
+        "handwritten",
+        "effect",
+        "annotation"
+      ]
+    },
+    {
+      "name": "vfx-liquid-background",
+      "type": "block",
+      "title": "Liquid Background",
+      "description": "Organic liquid simulation with vertex displacement on a subdivided plane. HTML content floats above rippling fluid surface with real-time wave dynamics.",
+      "tags": [
+        "html-in-canvas",
+        "liquid",
+        "webgl",
+        "displacement",
+        "background"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 12,
+      "preview": {
+        "video": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/vfx-liquid-background.mp4",
+        "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/vfx-liquid-background.png"
+      }
+    },
+    {
+      "name": "sheet-spring-up",
+      "type": "component",
+      "title": "Sheet Spring-Up",
+      "description": "A bottom sheet rushes up from below the frame on a real spring sampled frame by frame from reference footage, overshooting its resting place and settling back without an approximated ease",
+      "tags": [
+        "video-primitive",
+        "sheet",
+        "spring",
+        "mock-ui",
+        "overlay"
+      ]
+    },
+    {
+      "name": "hw-box-label",
+      "type": "component",
+      "title": "Hand-Drawn Box Label",
+      "description": "Wobbled rounded rectangle draws on — across the authored stroke matrix (plain/soft/sharp/spray) — or drops in and lands with a volume-true contact squash and bouncy spring recovery, with a handwritten label above or centered; boils",
+      "tags": [
+        "handwritten",
+        "annotation",
+        "overlay"
+      ]
+    },
+    {
+      "name": "ascii-render-pass",
+      "type": "component",
+      "title": "ASCII Render Pass",
+      "description": "A slotted scene renders as live ASCII: a canvas samples the source's luminance grid (rasterized once at mount) and draws glyphs from a density ramp charset; resolution steps coarse to fine as the piece resolves, then holds legible-fine.",
+      "tags": [
+        "motion-primitive",
+        "experiment",
+        "texture",
+        "ascii",
+        "quantize"
+      ]
+    },
+    {
+      "name": "push-in",
+      "type": "component",
+      "title": "Push In",
+      "description": "A centered headline gains focus through one slow, continuous camera push and a gentle fade out.",
+      "tags": [
+        "motion-primitive",
+        "camera",
+        "push-in",
+        "focus",
+        "emphasize",
+        "holdable"
+      ]
+    },
+    {
+      "name": "carousel-vision-5",
+      "type": "block",
+      "title": "Vision Carousel 5",
+      "description": "A ring of large image cards tilted into a row under a 3D camera, each card turning toward the centre (Vision style 5); 12 image slots.",
+      "tags": [
+        "carousel",
+        "gallery",
+        "images",
+        "showcase",
+        "vision",
+        "3d"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 6
+    },
+    {
+      "name": "carousel-vision-4",
+      "type": "block",
+      "title": "Vision Carousel 4",
+      "description": "A ring of large image cards tilted into a row under a 3D camera, each card turning toward the centre (Vision style 4); 12 image slots.",
+      "tags": [
+        "carousel",
+        "gallery",
+        "images",
+        "showcase",
+        "vision",
+        "3d"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 6
+    },
+    {
+      "name": "carousel-vision-3",
+      "type": "block",
+      "title": "Vision Carousel 3",
+      "description": "A ring of large image cards tilted into a row under a 3D camera, each card turning toward the centre (Vision style 3); 12 image slots.",
+      "tags": [
+        "carousel",
+        "gallery",
+        "images",
+        "showcase",
+        "vision",
+        "3d"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 6
+    },
+    {
+      "name": "carousel-vision-2",
+      "type": "block",
+      "title": "Vision Carousel 2",
+      "description": "A ring of large image cards tilted into a row under a 3D camera, each card turning toward the centre (Vision style 2); 12 image slots.",
+      "tags": [
+        "carousel",
+        "gallery",
+        "images",
+        "showcase",
+        "vision",
+        "3d"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 6
+    },
+    {
+      "name": "carousel-vision-1",
+      "type": "block",
+      "title": "Vision Carousel 1",
+      "description": "A ring of large image cards tilted into a row under a 3D camera, each card turning toward the centre (Vision style 1); 12 image slots.",
+      "tags": [
+        "carousel",
+        "gallery",
+        "images",
+        "showcase",
+        "vision",
+        "3d"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 6
+    },
+    {
+      "name": "screen-flow-carousel",
+      "type": "component",
+      "title": "Screen Flow Carousel",
+      "description": "Two to five app screens ride a horizontal rail: one primary at center, neighbors receded, advancing on cues with a velocity-matched throw and a smooth long-tail catch while a mono caption swaps with each advance. Screens are slots with token skeleton defaults.",
+      "tags": [
+        "product-demo",
+        "feature-tour",
+        "carousel",
+        "rail",
+        "slot",
+        "screens"
+      ]
+    },
+    {
+      "name": "hw-arrow",
+      "type": "component",
+      "title": "Hand-Drawn Arrow",
+      "description": "Wobbled draw-on arrow with straight, gentle, and swoop curve poses, a four-way stroke texture matrix (plain/soft/sharp/spray), and a travel-aligned head-arrival stretch pulse with spring recovery; boils while on screen",
+      "tags": [
+        "handwritten",
+        "annotation",
+        "arrow",
+        "overlay"
+      ]
+    },
+    {
+      "name": "editorial-flash-overlay",
+      "type": "block",
+      "title": "Editorial Flash Overlay",
+      "description": "Finite neutral-warm light layers for a seek-safe camera-flash cut or social reveal",
+      "tags": [
+        "flash",
+        "editorial",
+        "social",
+        "light",
+        "transition",
+        "overlay",
+        "media-treatment-overlay"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 4,
+      "preview": {
+        "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/editorial-flash-overlay.png",
+        "video": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/editorial-flash-overlay.mp4"
+      }
+    },
+    {
+      "name": "camcorder-hud",
+      "type": "block",
+      "title": "Camcorder HUD",
+      "description": "Responsive REC, battery, editable date placeholder, and timeline-driven counter overlay for creator-camera and camcorder treatments",
+      "tags": [
+        "camcorder",
+        "camera",
+        "recording",
+        "hud",
+        "overlay",
+        "creator",
+        "media-treatment-overlay"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 4,
+      "preview": {
+        "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/camcorder-hud.png",
+        "video": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/camcorder-hud.mp4"
+      }
+    },
+    {
+      "name": "stop-motion-cadence",
+      "type": "component",
+      "title": "Stop Motion Cadence",
+      "description": "The stepped-time law as a demo primitive: one driver quantizes timeline time to floor(t * fps) / fps and feeds ALL motion; four token paper-cut shapes throw-and-land with squash on hits, 2-frame boil jitter seeded per step, and sparkle accents living exactly 2 to 3 frames.",
+      "tags": [
+        "motion-primitive",
+        "time-law",
+        "stop-motion",
+        "stepped",
+        "boil",
+        "deterministic",
+        "experiment"
+      ]
+    },
+    {
+      "name": "segmentation-flood",
+      "type": "component",
+      "title": "Segmentation Flood",
+      "description": "Machine-vision read of a slotted subject: translucent accent segmentation masks flood on in quantized scanline steps, each region gets a thin bracket and mono label chip, a deterministic 2-frame HUD flicker rides the pass, then the labeled read settles clean.",
+      "tags": [
+        "motion-primitive",
+        "product-demo",
+        "ai",
+        "hud",
+        "canvas",
+        "deterministic",
+        "experiment"
+      ]
+    },
+    {
+      "name": "curtain-reveal",
+      "type": "component",
+      "title": "Curtain Reveal",
+      "description": "Two pleated stage curtains gather outward from center, the way real velvet bunches at the tieback, revealing the stage underneath. A static pelmet frames the top; a soft spotlight can bloom in as they part.",
+      "tags": [
+        "curtain",
+        "stage reveal",
+        "transition",
+        "motion-primitive"
+      ]
+    },
+    {
+      "name": "pan-stations",
+      "type": "component",
+      "title": "Pan Stations",
+      "description": "A lateral camera move across a continuous row of labeled feature stations, with a steady dwell at each stop before the next pan.",
+      "tags": [
+        "camera",
+        "pan",
+        "stations",
+        "features",
+        "exhibit",
+        "agitate",
+        "cross-shelved"
+      ]
+    },
+    {
+      "name": "macos-tahoe-liquid-glass",
+      "type": "block",
+      "title": "macOS Tahoe Liquid Glass Desktop",
+      "description": "3D MacBook with a macOS Tahoe-style desktop, glass menu bar, Finder window, dock, and cinematic device camera move.",
+      "tags": [
+        "html-in-canvas",
+        "3d",
+        "macos",
+        "tahoe",
+        "gltf"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 15,
+      "preview": {
+        "video": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/macos-tahoe-liquid-glass.mp4",
+        "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/macos-tahoe-liquid-glass.png"
+      }
+    },
+    {
+      "name": "focus-rack",
+      "type": "component",
+      "title": "Focus Rack",
+      "description": "Focus shifts once between two cards at different apparent depths through synchronized blur, dimming, scale, and parallax.",
+      "tags": [
+        "motion-primitive",
+        "camera",
+        "focus",
+        "focus-rack",
+        "depth",
+        "parallax",
+        "emphasize"
+      ]
+    },
+    {
+      "name": "parallax-device-dive",
+      "type": "component",
+      "title": "Parallax Device Dive",
+      "description": "A canonical phone rises into view before the camera pushes through its screen and layered app UI expands to fill the frame.",
+      "tags": [
+        "motion-primitive",
+        "camera",
+        "device",
+        "phone",
+        "parallax",
+        "transition"
+      ]
+    },
+    {
+      "name": "lens-flare",
+      "type": "block",
+      "title": "Lens Flare",
+      "description": "A camera lens flare: a bright star burst and a faint rainbow halo that slowly shimmer on black. A WebGPU shader from the Shaders library (shaders.com, MIT).",
+      "tags": [
+        "webgpu",
+        "webgpu-shader",
+        "background",
+        "light",
+        "flare",
+        "glow"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 2,
+      "preview": {
+        "video": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/lens-flare.mp4"
+      }
+    },
+    {
+      "name": "spring-stack-shuffle",
+      "type": "component",
+      "title": "Spring Stack Shuffle",
+      "description": "A stack of 3 to 5 slotted cards reshuffles on cues: the back card throws over the top and lands at the front with real mass, the rest compress and resettle; cues that land mid-flight redirect the moving cards with velocity preserved.",
+      "tags": [
+        "motion-primitive",
+        "product-demo",
+        "physics",
+        "stack",
+        "interruptible-spring"
+      ]
+    },
+    {
+      "name": "drift-hold",
+      "type": "component",
+      "title": "Drift Hold",
+      "description": "A centered content card stays subtly alive through loop-exact rotation, scale breathing, and a slow light sweep.",
+      "tags": [
+        "motion-primitive",
+        "camera",
+        "ambient",
+        "drift",
+        "hold",
+        "loopable"
+      ]
+    },
+    {
+      "name": "dart-cursor",
+      "type": "component",
+      "title": "Dart Cursor",
+      "description": "A bold outlined arrowhead that dives in from camera depth, flies nose-first with motion blur along its path, squashes on two clicks, and whips out of frame.",
+      "tags": [
+        "cursor",
+        "motion-primitive",
+        "pointer",
+        "click",
+        "motion-blur",
+        "depth"
+      ]
+    },
+    {
+      "name": "vfx-anamorphic-flare",
+      "type": "block",
+      "title": "Anamorphic Streak Flare",
+      "description": "A drifting field of bright points, each one throwing the long horizontal blue-violet streak a real anamorphic cinema lens produces. Built from the measured filter constants: a 0.3 high-pass, 80 horizontal taps at quarter resolution, a samples/3 gain and a 0x7a8aff tint.",
+      "tags": [
+        "vfx",
+        "background",
+        "showcase",
+        "optical",
+        "canvas"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 10
+    },
+    {
+      "name": "hw-write-title",
+      "type": "block",
+      "title": "Handwritten Write-On Title",
+      "description": "True glyph write-on: filled Caveat letterforms revealed by baked per-glyph centerline strokes traced in real stroke order with a curvature-adaptive pen-velocity ease (fast on straights, slow into curves, inter-stroke pen lifts); optional squiggle underline; boils",
+      "tags": [
+        "handwritten",
+        "typography",
+        "title-card",
+        "write-on",
+        "overlay"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 6
+    },
+    {
+      "name": "gooey-split",
+      "type": "block",
+      "title": "Gooey Split",
+      "description": "A dot splits into a three-dot menu with a gooey metaball neck, spins into a swirl mark under directional shutter motion blur, then breaks back into three dots and merges into one. The goo is an SVG blur-and-threshold filter on the dots; the blur integrates each part along its real trajectory, so the smear follows the direction and speed of the spin.",
+      "tags": [
+        "effect",
+        "gooey",
+        "metaball",
+        "motion-blur",
+        "morph",
+        "logo",
+        "icon"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 4.7
+    },
+    {
+      "name": "motion-blur",
+      "type": "component",
+      "title": "Motion Blur",
+      "description": "After Effects-style motion blur — integrates each element over a shutter window (shutter angle, phase, samples per frame) by sampling the GSAP timeline at sub-frame times and averaging equal-weight additive copies of the element along its real trajectory, so translation, scale, rotation, 3D rotation and skew all drive the smear",
+      "tags": [
+        "effect",
+        "motion-blur",
+        "shutter",
+        "after-effects",
+        "velocity",
+        "animation"
+      ],
+      "preview": {
+        "poster": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/components/motion-blur.png"
+      }
+    },
+    {
+      "name": "grade-split-reveal",
+      "type": "component",
+      "title": "Grade Split Reveal",
+      "description": "The same picture twice, one flat and one finished, with a hard edge sweeping between them. It stops in the middle long enough to compare, then commits and the graded look takes the frame. Both looks are real HyperFrames color grading run through the WebGL shader, so the preview and the render match.",
+      "tags": [
+        "color-grading",
+        "media",
+        "compare",
+        "reveal",
+        "motion-primitive",
+        "grade"
+      ]
+    },
+    {
+      "name": "spiral-galaxy",
+      "type": "block",
+      "title": "Spiral Galaxy",
+      "description": "A spiral galaxy seen from outside, turning with real differential rotation: inner stars orbit faster than outer ones, so the arms wind up over the shot instead of spinning rigidly. 20,000 additive GPU sprites, seeded once and solved directly from time, so any frame can be rendered on its own.",
+      "tags": [
+        "hero",
+        "space",
+        "particles",
+        "webgl",
+        "background"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 10
+    },
+    {
+      "name": "chat-message",
+      "type": "component",
+      "title": "Chat Message",
+      "description": "One message arrives on the measured entry - scale 0.75, 0.12s, growing from its sender's corner. The type is an enum switched like marker-highlight's style: a received or sent bubble with a real tail, a large emoji row, an image, or a link card with title and domain. The atom that chat-thread builds conversations from",
+      "tags": [
+        "video-primitive",
+        "chat",
+        "mock-ui",
+        "message"
+      ]
+    },
+    {
+      "name": "cinemagraph",
+      "type": "block",
+      "title": "Cinemagraph",
+      "description": "A still photograph with one living region: the frame is frozen while a single feathered window keeps moving - here, steam rising over a cup - drawn from the seek time alone with a period that divides the duration, so the render loops seamlessly. Swap the placeholder scene for a freeze-frame still masked over a looping video to cinemagraph real footage.",
+      "tags": [
+        "effect",
+        "cinemagraph",
+        "photo",
+        "loop",
+        "freeze-frame"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 10
+    },
+    {
+      "name": "gallery-tunnel",
+      "type": "block",
+      "title": "Gallery Tunnel",
+      "description": "An infinite corridor of panels: a square tunnel receding to a vanishing point, its floor, ceiling and walls tiled with saturated colour slabs and caller-supplied images that swell toward camera and exit past you, the far end dissolving into fog.",
+      "tags": [
+        "webgl",
+        "3d",
+        "background",
+        "showcase",
+        "depth",
+        "loop"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 12
+    },
+    {
+      "name": "chat-thread",
+      "type": "component",
+      "title": "Chat Thread",
+      "description": "The measured conversation as one mountable scene at full fidelity: status bar, back badge, avatar and name pill, bubbles with real iMessage tails, a Delivered receipt, large emoji rows, a media placeholder, a link card, and typing dots holding the beat. Every message picks its type by prefix - recv:/sent: text, emoji: a large row, img media, card:Title~domain a link card - and heights are measured at mount so any thread fits",
+      "tags": [
+        "motion-primitive",
+        "chat",
+        "mock-ui",
+        "conversation",
+        "vertical"
+      ]
+    },
+    {
+      "name": "hw-underline",
+      "type": "component",
+      "title": "Squiggle Marks",
+      "description": "Hand-drawn squiggle underline, double-pass strikethrough, and bracket marks that draw on",
+      "tags": [
+        "handwritten",
+        "annotation",
+        "text-treatment"
+      ]
+    },
+    {
+      "name": "liquid-metal",
+      "type": "block",
+      "title": "Liquid Metal",
+      "description": "A chrome sphere ripples and flows like molten metal on black. A WebGPU shader from the Shaders library (shaders.com, MIT).",
+      "tags": [
+        "webgpu",
+        "webgpu-shader",
+        "object",
+        "metal",
+        "chrome",
+        "liquid",
+        "sphere"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 2,
+      "preview": {
+        "video": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/liquid-metal.mp4"
+      }
+    },
+    {
+      "name": "flowing-gradient",
+      "type": "block",
+      "title": "Flowing Gradient",
+      "description": "Bands of orange and violet flow across the frame in a smooth gradient. A WebGPU shader from the Shaders library (shaders.com, MIT).",
+      "tags": [
+        "webgpu",
+        "webgpu-shader",
+        "background",
+        "gradient",
+        "color",
+        "flow"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 2,
+      "preview": {
+        "video": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/flowing-gradient.mp4"
+      }
+    },
+    {
+      "name": "swirl",
+      "type": "block",
+      "title": "Swirl",
+      "description": "Orange and blue color fields swirl and flow into each other across the whole frame. A WebGPU shader from the Shaders library (shaders.com, MIT).",
+      "tags": [
+        "webgpu",
+        "webgpu-shader",
+        "background",
+        "gradient",
+        "flow",
+        "abstract"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 2,
+      "preview": {
+        "video": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/swirl.mp4"
+      }
+    },
+    {
+      "name": "heatmap",
+      "type": "block",
+      "title": "Heatmap",
+      "description": "Thermal colours flow through a glowing orb, on black. A WebGPU shader from the Shaders library (shaders.com, MIT).",
+      "tags": [
+        "webgpu",
+        "webgpu-shader",
+        "object",
+        "heat",
+        "thermal",
+        "glow"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 2,
+      "preview": {
+        "video": "https://static.heygen.ai/hyperframes-oss/docs/images/catalog/blocks/heatmap.mp4"
+      }
+    },
+    {
+      "name": "hw-text-cloud",
+      "type": "block",
+      "title": "Speech Bubble",
+      "description": "Hand-drawn speech bubble with a positionable tail: outline draws on, paper fill fades in, handwritten text types per character; boils",
+      "tags": [
+        "handwritten",
+        "speech-bubble",
+        "overlay"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 6
+    },
+    {
+      "name": "marker-highlight",
+      "type": "component",
+      "title": "Marker Highlight",
+      "description": "Display text settles in, then one hand-drawn marker stroke (highlight, circle, underline, or scribble) draws over the emphasized word on cue.",
+      "tags": [
+        "motion-primitive",
+        "typography",
+        "emphasis",
+        "marker",
+        "deterministic"
+      ]
+    },
+    {
+      "name": "hw-frame",
+      "type": "block",
+      "title": "Sketched Frame",
+      "description": "Media in a hand-drawn border with corner doodles and a handwritten caption; the unit tilts slightly and boils (images inside the block; keep live footage in the host)",
+      "tags": [
+        "handwritten",
+        "frame",
+        "media"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 8
+    },
+    {
+      "name": "carousel-text-circle-5",
+      "type": "block",
+      "title": "Text + Circle Carousel 5",
+      "description": "A headline mask-reveals word by word while a circle carousel converges from off-frame and threads the line, collapses to centre, hard-cuts to a second line that arrives at 1.4× (Circle style 5).",
+      "tags": [
+        "carousel",
+        "title-card",
+        "kinetic-text",
+        "images",
+        "showcase",
+        "circle"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 5
+    },
+    {
+      "name": "carousel-text-circle-4",
+      "type": "block",
+      "title": "Text + Circle Carousel 4",
+      "description": "A headline mask-reveals word by word while a circle carousel converges from off-frame and threads the line, collapses to centre, hard-cuts to a second line that arrives at 1.4× (Circle style 4).",
+      "tags": [
+        "carousel",
+        "title-card",
+        "kinetic-text",
+        "images",
+        "showcase",
+        "circle"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 5
+    },
+    {
+      "name": "carousel-text-circle-3",
+      "type": "block",
+      "title": "Text + Circle Carousel 3",
+      "description": "A headline mask-reveals word by word while a circle carousel converges from off-frame and threads the line, collapses to centre, hard-cuts to a second line that arrives at 1.4× (Circle style 3).",
+      "tags": [
+        "carousel",
+        "title-card",
+        "kinetic-text",
+        "images",
+        "showcase",
+        "circle"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 5
+    },
+    {
+      "name": "carousel-text-circle-2",
+      "type": "block",
+      "title": "Text + Circle Carousel 2",
+      "description": "A headline mask-reveals word by word while a circle carousel converges from off-frame and threads the line, collapses to centre, hard-cuts to a second line that arrives at 1.4× (Circle style 2).",
+      "tags": [
+        "carousel",
+        "title-card",
+        "kinetic-text",
+        "images",
+        "showcase",
+        "circle"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 5
+    },
+    {
+      "name": "carousel-text-circle-1",
+      "type": "block",
+      "title": "Text + Circle Carousel 1",
+      "description": "A headline mask-reveals word by word while a circle carousel converges from off-frame and threads the line, collapses to centre, hard-cuts to a second line that arrives at 1.4× (Circle style 1).",
+      "tags": [
+        "carousel",
+        "title-card",
+        "kinetic-text",
+        "images",
+        "showcase",
+        "circle"
+      ],
+      "dimensions": {
+        "width": 1920,
+        "height": 1080
+      },
+      "duration": 5
+    },
+    {
+      "name": "vox-annotate",
+      "type": "component",
+      "title": "Vox Annotate",
+      "description": "The Vox-style annotate gesture: a keyword in a held sentence gets a hand-drawn marker while a thin connector draws up to a mono callout label, all as one choreographed beat on the cue.",
+      "tags": [
+        "motion-primitive",
+        "typography",
+        "annotation",
+        "marker",
+        "deterministic"
+      ]
+    },
+    {
+      "name": "cursor-annotate",
+      "type": "component",
+      "title": "Annotate Cursor",
+      "description": "A marker pen glides onto the frame and hand-draws a loose loop, an underline, or an arrow around a region, the ink laid exactly under its nib, then lifts and leaves.",
+      "tags": [
+        "cursor",
+        "motion-primitive",
+        "pen",
+        "annotation",
+        "draw-on",
+        "highlight"
+      ]
+    },
+    {
+      "name": "oversized-cursor",
+      "type": "component",
+      "title": "Oversized Cursor",
+      "description": "The look-here pointer for a video: the macOS arrow at 3.5x its normal size lands its tip on one control, clicks it on, settles just below it so the result stays in view, then exits off-screen",
+      "tags": [
+        "cursor",
+        "motion-primitive",
+        "actor",
+        "pointer",
+        "interaction"
+      ]
+    },
+    {
+      "name": "marker-checklist-card",
+      "type": "component",
+      "title": "Marker Checklist Card",
+      "description": "A hand-lettered paper card: marker headline with an underline and a drawn ellipse around one word, then three checklist rows whose checks draw themselves on - typewriter labels, marker values. The paper-and-marker sibling of mk-specs-list's clean professional rows",
+      "tags": [
+        "motion-primitive",
+        "handwritten",
+        "checklist",
+        "paper",
+        "marker"
+      ]
+    },
+    {
+      "name": "colorama-wipe",
+      "type": "component",
+      "title": "Colorama Wipe",
+      "description": "Headline reveal through a feathered, leaning wipe front that is blurred and colour-mapped as it passes, then settles to clean type and wipes off again — the After Effects masked-text + Compound Blur + Colorama 'shiny wipe' as a deterministic canvas effect on any text element",
+      "tags": [
+        "text",
+        "reveal",
+        "wipe",
+        "colorama",
+        "gradient",
+        "blur",
+        "headline",
+        "saas"
+      ]
+    },
+    {
+      "name": "press-ripple",
+      "type": "component",
+      "title": "Press Ripple",
+      "description": "A cursor decel-arrives from off-stage, lands slightly off-center on a caller-positioned target, compresses with it in lockstep, releases with two small click rings while the label swaps to a check, then exits off-stage while the confirmed state holds.",
+      "tags": [
+        "cursor",
+        "motion-primitive",
+        "product-demo",
+        "press",
+        "ripple",
+        "payoff"
+      ]
+    },
+    {
+      "name": "notes-reveal",
+      "type": "block",
+      "title": "Notes Reveal",
+      "description": "A personal note is typed character by character in a notes app - caret riding every letter, the page scrolling up on measured settle curves as each line lands - then cuts to a hand-lettered paper card with a marker headline and a ticked checklist",
+      "tags": [
+        "showcase",
+        "mock-ui",
+        "notes",
+        "typing",
+        "vertical",
+        "ad-template"
+      ],
+      "dimensions": {
+        "width": 1080,
+        "height": 1920
+      },
+      "duration": 24.85,
+      "preview": {
+        "video": "https://static.heygen.ai/hyperframes/templates/promoted/254fe4bd8a3f00c1e70ac5e38a1bce25060f7590/notes-reveal/preview.mp4",
+        "poster": "https://static.heygen.ai/hyperframes/templates/promoted/254fe4bd8a3f00c1e70ac5e38a1bce25060f7590/notes-reveal/poster.jpg"
+      }
+    },
+    {
+      "name": "whiteboard-ink",
+      "type": "component",
+      "title": "Whiteboard Ink",
+      "description": "A whiteboard sketch draws one measured stroke at a time while a pen nib follows the active tip. Preset sketches (bulb, flow, rocket) or your own multi-stroke SVG paths via the strokes slot; a path marked data-ink=accent rides the accent token.",
+      "tags": [
+        "motion-primitive",
+        "intro",
+        "reveal",
+        "svg",
+        "whiteboard",
+        "line-draw",
+        "slot"
+      ]
+    },
+    {
+      "name": "modal-morph",
+      "type": "component",
+      "title": "Modal Morph",
+      "description": "A small card expands into a full panel, shared-element style: both layouts measured once at mount, the container morphs by transform only (never width/height tweens) while keyed children counter-scale and re-flow onto their own measured targets as pure functions of time.",
+      "tags": [
+        "motion-primitive",
+        "structure",
+        "flip",
+        "shared-element",
+        "modal",
+        "deterministic",
+        "experiment"
+      ]
+    },
+    {
+      "name": "whip-pan-cut",
+      "type": "component",
+      "title": "Whip Pan Cut",
+      "description": "A full-frame whip pan: scene A whips off laterally with capped directional motion blur while scene B enters in the same direction at matched velocity, on a speed-ramp profile with a decelerating catch. Both scenes ride one strip, so seam velocity is exact by construction. Callers fill the named before/after slot panels; token-styled defaults render when a slot is left empty.",
+      "tags": [
+        "transition",
+        "whip-pan",
+        "motion-blur",
+        "velocity-match",
+        "speed-ramp",
+        "bridge",
+        "slots"
+      ]
+    }
+  ]
+}

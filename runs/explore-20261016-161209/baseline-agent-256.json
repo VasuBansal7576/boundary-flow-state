@@ -1,0 +1,1 @@
+{"id": "agent-256", "profile_hash": "d54f05b95be22a4fa0d183f0a53b3f2791a76a95029903b4778f7346663694c1", "thread_id": "01a14452-8b2e-70d2-a1b5-902272bd3cff", "server_index": 3, "phase": "finished", "decisions": 2, "web_actions": 2, "website_responses": 2, "errors": [], "own_result_ids_delivered": ["obs-agent-256-1", "obs-agent-256-3"], "done": true}

@@ -1,0 +1,69 @@
+ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers
+  built with Apple clang version 21.0.0 (clang-2100.3.34.2)
+  configuration: --prefix=/opt/homebrew/Cellar/ffmpeg/9.0.2_1 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gpl --enable-libsvtav1 --enable-libopus --enable-libx264 --enable-libmp3lame --enable-libdav1d --enable-libvmaf --enable-libvpx --enable-libx265 --enable-openssl --enable-videotoolbox --enable-audiotoolbox --enable-neon
+  libavutil      61.  1.102 / 61.  1.102
+  libavcodec     63.  1.102 / 63.  1.102
+  libavformat    63.  1.102 / 63.  1.102
+  libavdevice    63.  1.102 / 63.  1.102
+  libavfilter    12.  1.102 / 12.  1.102
+  libswscale     10.  1.102 / 10.  1.102
+  libswresample   7.  1.102 /  7.  1.102
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/vasu/Desktop/Unknowns/boundary-lab/launch/exploration-vc90/renders/boundary-submission-master.mp4':
+  Metadata:
+    minor_version   : 512;512
+    major_brand     : isom;isom
+    compatible_brands: isomiso2avc1mp41;isomiso2avc1mp41
+    hyperframes_version: 0.8.164
+    hyperframes_renderer: hyperframes
+    encoder         : Lavf63.1.102
+  Duration: 00:01:30.00, start: 0.000000, bitrate: 862 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 661 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc63.1.102 libx264
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 193 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (aac (native) -> aac (native))
+Press [q] to stop, [?] for help
+Output #0, mp4, to '/Users/vasu/Desktop/Unknowns/boundary-lab/launch/exploration-vc90/renders/boundary-fixed-256-vc90.build.mp4':
+  Metadata:
+    minor_version   : 512;512
+    major_brand     : isom;isom
+    compatible_brands: isomiso2avc1mp41;isomiso2avc1mp41
+    hyperframes_version: 0.8.164
+    hyperframes_renderer: hyperframes
+    encoder         : Lavf63.1.102
+  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 661 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc63.1.102 libx264
+  Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 256 kb/s (default)
+    Metadata:
+      encoder         : Lavc63.1.102 aac
+      handler_name    : SoundHandler
+frame=  443 fps=0.0 q=-1.0 size=    1536KiB time=00:00:14.76 bitrate= 852.1kbits/s speed=29.2x elapsed=0:00:00.50    
+frame=  809 fps=804 q=-1.0 size=    2816KiB time=00:00:26.96 bitrate= 855.5kbits/s speed=26.8x elapsed=0:00:01.00    
+frame= 1229 fps=813 q=-1.0 size=    4096KiB time=00:00:40.96 bitrate= 819.1kbits/s speed=27.1x elapsed=0:00:01.51    
+frame= 1679 fps=833 q=-1.0 size=    6912KiB time=00:00:55.96 bitrate=1011.7kbits/s speed=27.8x elapsed=0:00:02.01    
+frame= 2153 fps=855 q=-1.0 size=    8448KiB time=00:01:11.76 bitrate= 964.3kbits/s speed=28.5x elapsed=0:00:02.51    
+frame= 2561 fps=848 q=-1.0 size=    9472KiB time=00:01:25.36 bitrate= 909.0kbits/s speed=28.3x elapsed=0:00:03.02    
+[Parsed_loudnorm_0 @ 0xc54c48e40] 
+{
+	"input_i" : "-24.56",
+	"input_tp" : "-7.26",
+	"input_lra" : "3.00",
+	"input_thresh" : "-34.97",
+	"output_i" : "-16.02",
+	"output_tp" : "-1.50",
+	"output_lra" : "2.90",
+	"output_thresh" : "-26.42",
+	"normalization_type" : "dynamic",
+	"target_offset" : "0.02"
+}
+[mp4 @ 0xc55017700] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0xc54c48300] video:7270KiB audio:2774KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 0.769168%
+frame= 2700 fps=820 q=-1.0 Lsize=   10121KiB time=00:01:30.00 bitrate= 921.3kbits/s speed=27.3x elapsed=0:00:03.29    
+[aac @ 0xc54c45500] Qavg: 26600.361

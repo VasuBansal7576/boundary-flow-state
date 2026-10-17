@@ -1,0 +1,17 @@
+{
+  "run_id": "explore-20261016-161209",
+  "type": "continuous capture of live viewer during actual model execution",
+  "created_at": "2026-10-16T10:42:17.287Z",
+  "url": "http://127.0.0.1:8175/live-run?run_id=explore-20261016-161209",
+  "viewport": {
+    "width": 1440,
+    "height": 1000
+  },
+  "errors": [],
+  "recording_page_created_at": "2026-10-16T10:42:18.630Z",
+  "first_view_ready_at": "2026-10-16T10:42:18.961Z",
+  "last_frame_at": "2026-10-16T11:51:47.024Z",
+  "closed_at": "2026-10-16T11:51:48.630Z",
+  "file": "actual-full-run.webm",
+  "bytes": 382000025
+}

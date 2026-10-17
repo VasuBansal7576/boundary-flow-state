@@ -1,0 +1,9 @@
+{
+  "recorded_run": "explore-20261016-161209",
+  "changes": "host configuration only, after execution processes loaded their frozen code",
+  "same_guard_class_ast": true,
+  "same_resolved_user": true,
+  "same_codex_executable": true,
+  "frozen_actual_source_retained": true,
+  "privacy": "Owner email now loads from private local config or environment; keys remain server-side."
+}

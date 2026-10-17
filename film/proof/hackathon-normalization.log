@@ -1,0 +1,89 @@
+ffmpeg version 9.0.2 Copyright (c) 2000-2026 the FFmpeg developers
+  built with Apple clang version 21.0.0 (clang-2100.3.34.2)
+  configuration: --prefix=/opt/homebrew/Cellar/ffmpeg/9.0.2_1 --enable-shared --enable-pthreads --enable-version3 --cc=clang --host-cflags= --host-ldflags= --enable-ffplay --enable-gpl --enable-libsvtav1 --enable-libopus --enable-libx264 --enable-libmp3lame --enable-libdav1d --enable-libvmaf --enable-libvpx --enable-libx265 --enable-openssl --enable-videotoolbox --enable-audiotoolbox --enable-neon
+  libavutil      61.  1.102 / 61.  1.102
+  libavcodec     63.  1.102 / 63.  1.102
+  libavformat    63.  1.102 / 63.  1.102
+  libavdevice    63.  1.102 / 63.  1.102
+  libavfilter    12.  1.102 / 12.  1.102
+  libswscale     10.  1.102 / 10.  1.102
+  libswresample   7.  1.102 /  7.  1.102
+Input #0, mov,mp4,m4a,3gp,3g2,mj2, from '/Users/vasu/Desktop/Unknowns/boundary-lab/launch/exploration-vc90/renders/boundary-hackathon-master.mp4':
+  Metadata:
+    minor_version   : 512;512
+    major_brand     : isom;isom
+    compatible_brands: isomiso2avc1mp41;isomiso2avc1mp41
+    hyperframes_version: 0.8.167
+    hyperframes_renderer: hyperframes
+    encoder         : Lavf63.1.102
+  Duration: 00:04:00.00, start: 0.000000, bitrate: 627 kb/s
+  Stream #0:0[0x1](und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], 427 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc63.1.102 libx264
+  Stream #0:1[0x2](und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 193 kb/s (default)
+    Metadata:
+      handler_name    : SoundHandler
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (aac (native) -> aac (native))
+Press [q] to stop, [?] for help
+Output #0, mp4, to '/Users/vasu/Desktop/Unknowns/boundary-lab/launch/exploration-vc90/renders/boundary-flow-state-4min.build.mp4':
+  Metadata:
+    minor_version   : 512;512
+    major_brand     : isom;isom
+    compatible_brands: isomiso2avc1mp41;isomiso2avc1mp41
+    hyperframes_version: 0.8.167
+    hyperframes_renderer: hyperframes
+    encoder         : Lavf63.1.102
+  Stream #0:0(und): Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709, progressive), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 427 kb/s, 30 fps, 30 tbr, 15360 tbn (default)
+    Metadata:
+      handler_name    : VideoHandler
+      encoder         : Lavc63.1.102 libx264
+  Stream #0:1(und): Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp, 256 kb/s (default)
+    Metadata:
+      encoder         : Lavc63.1.102 aac
+      handler_name    : SoundHandler
+frame=  328 fps=0.0 q=-1.0 size=     512KiB time=00:00:10.93 bitrate= 383.7kbits/s speed=21.8x elapsed=0:00:00.50    
+frame=  587 fps=584 q=-1.0 size=    1536KiB time=00:00:19.56 bitrate= 643.1kbits/s speed=19.5x elapsed=0:00:01.00    
+frame=  836 fps=554 q=-1.0 size=    2560KiB time=00:00:27.86 bitrate= 752.6kbits/s speed=18.5x elapsed=0:00:01.50    
+frame= 1037 fps=516 q=-1.0 size=    3072KiB time=00:00:34.56 bitrate= 728.0kbits/s speed=17.2x elapsed=0:00:02.01    
+frame= 1268 fps=505 q=-1.0 size=    3840KiB time=00:00:42.26 bitrate= 744.3kbits/s speed=16.8x elapsed=0:00:02.51    
+frame= 1523 fps=505 q=-1.0 size=    4608KiB time=00:00:50.76 bitrate= 743.6kbits/s speed=16.8x elapsed=0:00:03.01    
+frame= 1793 fps=510 q=-1.0 size=    5376KiB time=00:00:59.76 bitrate= 736.9kbits/s speed=  17x elapsed=0:00:03.51    
+frame= 2105 fps=524 q=-1.0 size=    6912KiB time=00:01:10.16 bitrate= 807.0kbits/s speed=17.5x elapsed=0:00:04.01    
+frame= 2372 fps=525 q=-1.0 size=    7680KiB time=00:01:19.06 bitrate= 795.7kbits/s speed=17.5x elapsed=0:00:04.51    
+frame= 2600 fps=518 q=-1.0 size=    7936KiB time=00:01:26.66 bitrate= 750.1kbits/s speed=17.3x elapsed=0:00:05.01    
+frame= 2795 fps=506 q=-1.0 size=    8704KiB time=00:01:33.16 bitrate= 765.3kbits/s speed=16.9x elapsed=0:00:05.52    
+frame= 2984 fps=495 q=-1.0 size=    9216KiB time=00:01:39.46 bitrate= 759.0kbits/s speed=16.5x elapsed=0:00:06.02    
+frame= 3257 fps=499 q=-1.0 size=    9728KiB time=00:01:48.56 bitrate= 734.0kbits/s speed=16.6x elapsed=0:00:06.53    
+frame= 3503 fps=498 q=-1.0 size=   11008KiB time=00:01:56.76 bitrate= 772.3kbits/s speed=16.6x elapsed=0:00:07.03    
+frame= 3755 fps=498 q=-1.0 size=   11264KiB time=00:02:05.16 bitrate= 737.2kbits/s speed=16.6x elapsed=0:00:07.54    
+frame= 4049 fps=503 q=-1.0 size=   12288KiB time=00:02:14.96 bitrate= 745.8kbits/s speed=16.8x elapsed=0:00:08.04    
+frame= 4391 fps=514 q=-1.0 size=   13056KiB time=00:02:26.36 bitrate= 730.7kbits/s speed=17.1x elapsed=0:00:08.54    
+frame= 4730 fps=523 q=-1.0 size=   14080KiB time=00:02:37.66 bitrate= 731.6kbits/s speed=17.4x elapsed=0:00:09.05    
+frame= 5057 fps=529 q=-1.0 size=   14592KiB time=00:02:48.56 bitrate= 709.1kbits/s speed=17.6x elapsed=0:00:09.55    
+frame= 5414 fps=538 q=-1.0 size=   15616KiB time=00:03:00.46 bitrate= 708.9kbits/s speed=17.9x elapsed=0:00:10.05    
+frame= 5768 fps=546 q=-1.0 size=   16128KiB time=00:03:12.26 bitrate= 687.2kbits/s speed=18.2x elapsed=0:00:10.56    
+frame= 6125 fps=554 q=-1.0 size=   17152KiB time=00:03:24.16 bitrate= 688.2kbits/s speed=18.5x elapsed=0:00:11.06    
+frame= 6464 fps=559 q=-1.0 size=   17664KiB time=00:03:35.46 bitrate= 671.6kbits/s speed=18.6x elapsed=0:00:11.57    
+frame= 6764 fps=560 q=-1.0 size=   18688KiB time=00:03:45.46 bitrate= 679.0kbits/s speed=18.7x elapsed=0:00:12.07    
+frame= 7022 fps=558 q=-1.0 size=   19200KiB time=00:03:54.06 bitrate= 672.0kbits/s speed=18.6x elapsed=0:00:12.58    
+frame= 7200 fps=550 q=-1.0 size=   19712KiB time=00:03:59.38 bitrate= 674.6kbits/s speed=18.3x elapsed=0:00:13.08    
+[Parsed_loudnorm_0 @ 0xa12c48f00] 
+{
+	"input_i" : "-24.64",
+	"input_tp" : "-5.80",
+	"input_lra" : "3.00",
+	"input_thresh" : "-35.06",
+	"output_i" : "-16.03",
+	"output_tp" : "-1.50",
+	"output_lra" : "2.80",
+	"output_thresh" : "-26.45",
+	"normalization_type" : "dynamic",
+	"target_offset" : "0.03"
+}
+[mp4 @ 0xa130bc280] Starting second pass: moving the moov atom to the beginning of the file
+[out#0/mp4 @ 0xa12c48300] video:12526KiB audio:7213KiB subtitle:0KiB other streams:0KiB global headers:0KiB muxing overhead: 1.031808%
+frame= 7200 fps=549 q=-1.0 Lsize=   19942KiB time=00:04:00.00 bitrate= 680.7kbits/s speed=18.3x elapsed=0:00:13.11    
+[aac @ 0xa12c45500] Qavg: 58266.184

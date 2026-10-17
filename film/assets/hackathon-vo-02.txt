@@ -1,0 +1,1 @@
+We run the same frozen population on two matching copies: unprotected first, then Armor I Q. Two hundred fifty-six distinct profiles per site, across thirty-two objective families and eight topics. Ninety-six legitimate, ninety-six adversarial, sixty-four pressure-testing profiles. Each gets its own model thread, responses, and memory.

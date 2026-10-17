@@ -1,0 +1,165 @@
+{
+  "ok": true,
+  "strict": false,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "filesScanned": 10
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": []
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 2,
+    "findings": [
+      {
+        "code": "text_occluded",
+        "severity": "info",
+        "time": 35,
+        "selector": "p.evidence-label",
+        "message": "Text is hidden beneath an opaque element.",
+        "rect": {
+          "left": 96,
+          "top": 322,
+          "right": 740.97,
+          "bottom": 346,
+          "width": 644.97,
+          "height": 24
+        },
+        "containerSelector": "#f3-harm-screen",
+        "text": "ACTUAL TRACE CLOSE-UP / RECEIVED REFERENCE → NEXT REQUEST",
+        "fixHint": "Give the text its own zone, raise its stacking order above the covering element, or mark intentional layering with data-layout-allow-occlusion.",
+        "coveredFraction": 1,
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/03-coordination.html",
+        "bbox": {
+          "x": 96,
+          "y": 322,
+          "width": 644.97,
+          "height": 24
+        },
+        "firstSeen": 35,
+        "lastSeen": 35,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          35
+        ]
+      },
+      {
+        "code": "content_overlap",
+        "severity": "info",
+        "time": 54.391,
+        "selector": "#f5-request > p:nth-of-type(2)",
+        "message": "Two text blocks overlap and may render unreadable.",
+        "rect": {
+          "left": 96,
+          "top": 855.8,
+          "right": 751.86,
+          "bottom": 886.8,
+          "width": 655.86,
+          "height": 31
+        },
+        "containerSelector": "#f5 > div:nth-of-type(1) > p:nth-of-type(1)",
+        "text": "Website: 403 · Remote: allowed false · tool_not_in_allowlist",
+        "fixHint": "Give each block its own zone, or put data-layout-allow-overlap on the text or on a container inside the scene. A marker on the scene root does not apply.",
+        "dataAttributes": {},
+        "sourceFile": "compositions/frames/05-protected.html",
+        "bbox": {
+          "x": 96,
+          "y": 855.8,
+          "width": 655.86,
+          "height": 31
+        },
+        "firstSeen": 54.391,
+        "lastSeen": 54.391,
+        "occurrences": 1,
+        "heldMs": 0,
+        "times": [
+          54.391
+        ]
+      }
+    ],
+    "duration": 90,
+    "samples": [
+      5,
+      15,
+      25,
+      35,
+      45,
+      55,
+      65,
+      75,
+      85
+    ],
+    "transitionSamples": [],
+    "transitionSamplesDropped": 0,
+    "tolerance": 2,
+    "totalIssueCount": 2,
+    "truncated": false
+  },
+  "motion": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": false,
+    "samples": 0
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "infoCount": 0,
+    "findings": [],
+    "enabled": true,
+    "samples": [
+      5,
+      25,
+      45,
+      65,
+      85
+    ],
+    "checked": 60,
+    "passed": 60
+  },
+  "hdr": {
+    "autoPromotion": null,
+    "inspection": "available"
+  },
+  "snapshots": {
+    "enabled": true,
+    "files": [
+      ".hyperframes/artifacts/snapshots/f2b1e60e-fe6c-4d74-a0f2-923d89d6279d/frame-00-at-5.0s.png",
+      ".hyperframes/artifacts/snapshots/f2b1e60e-fe6c-4d74-a0f2-923d89d6279d/frame-01-at-25.0s.png",
+      ".hyperframes/artifacts/snapshots/f2b1e60e-fe6c-4d74-a0f2-923d89d6279d/frame-02-at-45.0s.png",
+      ".hyperframes/artifacts/snapshots/f2b1e60e-fe6c-4d74-a0f2-923d89d6279d/frame-03-at-65.0s.png",
+      ".hyperframes/artifacts/snapshots/f2b1e60e-fe6c-4d74-a0f2-923d89d6279d/frame-04-at-85.0s.png"
+    ],
+    "times": [
+      5,
+      25,
+      45,
+      65,
+      85
+    ],
+    "findingFiles": []
+  },
+  "_meta": {
+    "version": "0.8.164",
+    "latestVersion": "0.8.164",
+    "updateAvailable": false
+  }
+}

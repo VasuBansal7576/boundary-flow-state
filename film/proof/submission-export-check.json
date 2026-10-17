@@ -1,0 +1,11 @@
+{
+  "ok": true,
+  "duration": 90,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "frames": 2700,
+  "integrated_lufs": -16.04,
+  "true_peak_db": -1.49,
+  "size_bytes": 10364248
+}

@@ -1,0 +1,12 @@
+{
+  "verified_at": "2026-10-17T06:22:57.941045+00:00",
+  "registration_receipts": 512,
+  "console_agent_count": 512,
+  "console_mcp_count": 1,
+  "mcp_name": "boundary",
+  "mcp_transport": "stdio",
+  "mcp_health": "Unknown",
+  "mcp_detail_link_error": "Console View server link returned not found; registry card confirms registration.",
+  "not_a_fresh_model_run": true,
+  "onboarding_postdates_original_recording": true
+}
