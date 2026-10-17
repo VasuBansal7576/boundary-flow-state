@@ -2,7 +2,7 @@
 import json,shutil,hashlib,re,zipfile
 from pathlib import Path
 root=Path(__file__).resolve().parent.parent;pub=json.loads((root/'data/published-experiment.json').read_text());rid=pub['run_id'];f=root/'data/exploration'/rid;out=root/'submission/boundary-delivery';out.mkdir(parents=True,exist_ok=True)
-for name in ['README.md','RUNBOOK.md','CHALLENGE-REQUIREMENTS.md','RESULTS.md','FAILURES.md']:
+for name in ['README.md','RUNBOOK.md','CHALLENGE-REQUIREMENTS.md','RESULTS.md','FAILURES.md','COMPLIANCE-2026-10-17.md','PUBLISHING-REVIEW.md','POST-DRAFT.md']:
  src=root/'submission'/name
  if src.exists():shutil.copy2(src,out/name)
 runbook=out/'RUNBOOK.md'
@@ -20,6 +20,9 @@ evidence=out/'evidence';evidence.mkdir(exist_ok=True)
 for name in ['population.json','comparison.json','agent-coverage.csv','baseline.jsonl','protected.jsonl','baseline-world-initial.json','protected-world-initial.json','baseline-world-final.json','protected-world-final.json','baseline-coordination-proof.json','protected-coordination-proof.json','baseline-coordination-chains.json','protected-coordination-chains.json','protected-lifecycle.jsonl','full-integration-audit.json','policy-configuration.json','submission-readiness.json','baseline-failure-ledger.jsonl','protected-failure-ledger.jsonl','baseline-controller-finalization.json','protected-controller-finalization.json','configuration-equivalence.json','source-sha256.json','source-protected-sha256.json','evidence-sha256.json']:
  if (f/name).exists():shutil.copy2(f/name,evidence/name)
 shutil.copytree(f/'recording',evidence/'capture-metadata',dirs_exist_ok=True,ignore=shutil.ignore_patterns('*.webm','stop.flag'))
+# Post-recording integration evidence is separate from the immutable run.
+for source_name,dest_name in [('proof.json','mcp-verification.json'),('mcp-calls.json','mcp-calls.json'),('lifecycle-status.json','mcp-lifecycle.json')]:shutil.copy2(root/'data/mcp-verification-20261017'/source_name,evidence/dest_name)
+shutil.copy2(root/'data/submission-onboarding-20261017/inventory-verification.json',evidence/'inventory-verification.json')
 # A privacy-only redaction in archival source; original files remain intact locally.
 from lab.guard import LAB_USER,api_key
 exports=[]
@@ -28,10 +31,10 @@ for p in (f/'source').rglob('*'):
  text=p.read_text();redacted=LAB_USER in text;text=text.replace(LAB_USER,'<OWNER_EMAIL_REDACTED>');q=evidence/'recorded-source'/p.relative_to(f/'source');q.parent.mkdir(parents=True,exist_ok=True);q.write_text(text);exports.append({'file':str(q.relative_to(out)),'original_sha256':hashlib.sha256(p.read_bytes()).hexdigest(),'exported_sha256':hashlib.sha256(q.read_bytes()).hexdigest(),'redactions':['owner email configuration value'] if redacted else []})
 (evidence/'recorded-source-export.json').write_text(json.dumps(exports,indent=2))
 film=root/'launch/exploration-vc90';editable=out/'editable-film';editable.mkdir(exist_ok=True)
-for name in ['index.html','style.css','package.json','hyperframes.json','film_helpers.py','build_submission_film.py','prepare_submission.py','cut_submission_footage.py','capture_submission.cjs','finish_submission.py','README.md','SCRIPT.md','STORYBOARD.md']:
+for name in ['index.html','style.css','package.json','hyperframes.json','film_helpers.py','build_submission_film.py','prepare_submission.py','cut_submission_footage.py','capture_submission.cjs','finish_submission.py','README.md','SCRIPT.md','STORYBOARD.md','BRIEF.md','build_hackathon_film.py','prepare_hackathon_film.py','finish_hackathon.py','capture_hackathon.cjs','hackathon-beats.json','hackathon-audio-meta.json','submission-beats.json','submission-audio-meta.json']:
  if (film/name).exists():shutil.copy2(film/name,editable/name)
 shutil.copytree(film/'compositions',editable/'compositions',dirs_exist_ok=True)
-for folder,patterns in [('assets',['submission-*','dm-sans*','gsap.min.js','mark.svg','underscore-original.wav']),('capture',['submission-*']),('proof',['submission-*','baseline-coordination.svg','protected-coordination.svg'])]:
+for folder,patterns in [('assets',['submission-*','hackathon-*','dm-sans*','gsap.min.js','mark.svg','underscore-original.wav']),('capture',['submission-*','hackathon-*']),('proof',['submission-*','hackathon-*','baseline-coordination.svg','protected-coordination.svg'])]:
  (editable/folder).mkdir(exist_ok=True)
  for pattern in patterns:
   for p in (film/folder).glob(pattern):

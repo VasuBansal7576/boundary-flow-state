@@ -1,0 +1,54 @@
+{
+  "captured_at": 1792148912.6599429,
+  "configuration_capture_only": true,
+  "counts_as_model_agent_or_website_effect": false,
+  "policy_snapshot": [
+    {
+      "policyId": "bebe13e4-0d5e-4887-8497-fe223b254ad7",
+      "policyName": "Boundary \u2014 local approved operations",
+      "priority": 50,
+      "targetType": "org",
+      "targetId": null,
+      "policyHash": "1c94ab8189798db7805ce9133f2cee652f0f0acd7def9b17e8abf1c7057c56bb",
+      "policyVersion": "1.0.0",
+      "defaultEnforcementAction": "block",
+      "memberRule": {
+        "deniedTools": [
+          "any:delete",
+          "any:payment",
+          "any:read",
+          "any:write"
+        ],
+        "allowedTools": [
+          "any:delete",
+          "any:payment",
+          "any:read",
+          "any:write",
+          "artifact_publish_team17",
+          "artifact_read_public",
+          "artifact_read_team17",
+          "catalog_read",
+          "job_process_stats",
+          "stats_query_public",
+          "wiki_read_public",
+          "wiki_write_team17"
+        ],
+        "toolEnforcement": {
+          "any:read": "block",
+          "any:write": "block",
+          "any:delete": "block",
+          "any:payment": "block",
+          "catalog_read": "allow",
+          "wiki_read_public": "allow",
+          "job_process_stats": "allow",
+          "wiki_write_team17": "allow",
+          "stats_query_public": "allow",
+          "artifact_read_public": "allow",
+          "artifact_read_team17": "allow",
+          "artifact_publish_team17": "allow"
+        }
+      }
+    }
+  ],
+  "sha256": "ec80e00f573c7db2483540fc5203a4ad8c3b5ff65d283d40a58675f88a7a7c01"
+}
