@@ -37,3 +37,7 @@ The signed-in Discord announcement and current Google Form still require active 
 A new isolated MCP delivery check passed at 17:21 IST: baseline public rewrite 200, protected team write 200, protected public rewrite 403, remote ID 8990b27e-90dc-4c94-bf3a-25e475010862, two confirmed audits and completions. Zero model calls. The original population recording remains SDK evidence.
 
 [Full current checklist](SUBMISSION-CHECKLIST.md) lists the remaining eligibility conditions, SDK/ArmorTools policy distinction, hosted replay limitation, form fields and current evidence. Another participant asked the SDK/Policy Studio question on 17 October; no organiser answer was visible in the checked discussion. An organiser clarification is prepared but has not been sent.
+
+## Pro activation confirmed — 17 October 2026, 18:51 IST
+
+The owner completed the approved coupon checkout. The existing ArmorTools dashboard now visibly shows Pro. This clears the active-Pro requirement; earlier Free-plan and untouched-billing notes are historical. The social post remains a draft, no form has been submitted, and the required MCP/ArmorTools demonstration still needs to be completed.

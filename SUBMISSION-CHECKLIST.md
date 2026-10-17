@@ -2,7 +2,9 @@
 
 Checked at 17:30 IST against the signed-in Discord announcements, problem statement, general and help channels, the current Google Form, and the account’s plan screen.
 
-**The project is available for review. The entry is not yet eligible or complete.** Active ArmorTools Pro and a published build post are missing. Acceptance of the SDK policy demonstration also needs clarification.
+**ArmorTools Pro is now verified active.** A published build post is still missing, and the MCP/ArmorTools demonstration needs to meet the explicit submission requirements before the entry can be called complete.
+
+Pro update: 17 October 2026, 18:51 IST. The owner completed checkout; the existing dashboard visibly shows Pro. Earlier Free-plan and stalled-checkout notes describe the previous state.
 
 ## Current instructions
 
@@ -18,6 +20,7 @@ The organiser confirmed in the help channel on 17 October at 10:01 IST that subm
 
 | Requirement | Evidence and status |
 |---|---|
+| Active ArmorTools Pro | Verified on the existing dashboard on 17 October 2026, 18:51 IST |
 | Public source and setup | [Repository](https://github.com/VasuBansal7576/boundary-flow-state), plain README, pinned dependencies, local runbook |
 | Available demo | [Interactive recorded experiment](https://vasubansal7576.github.io/boundary-flow-state/); no credentials required |
 | Main judging video | [Unlisted four-minute film](https://youtu.be/PTKfH2pNLgU); verified playback and 4:00 duration |
@@ -34,10 +37,9 @@ The organiser confirmed in the help channel on 17 October at 10:01 IST that subm
 
 ## What remains
 
-1. **Active ArmorTools Pro.** The account still shows Free. Validating `FLOWSTATEPRO` displays 100% off for 12 months, but activation requires card/UPI on Stripe and renews at $9/month unless cancelled. No checkout was opened and no subscription was activated. The project itself runs without Pro; this is an organiser eligibility condition.
-2. **The build post.** No X/LinkedIn post has been published. A prepared post is available locally. The form requires a real post link and hashtag confirmation; neither can be truthfully supplied yet.
-3. **Clarify the policy demonstration.** The recorded population used server-side SDK policies through `platform.armoriq.ai`. The later announcement asks to show `tools.armoriq.ai` and ArmorTools Policy Studio. No plugin profile enforced this experiment. Another participant asked the same SDK-versus-Policy-Studio question in general on 17 October; no organiser answer was visible in the checked discussion. The current film discloses the distinction.
-4. **Final review and submission.** The team and project fields are prepared in a saved form draft. Pro is truthfully marked No. Navigation stopped at the required social confirmation. No final submission or receipt exists.
+1. **The build post.** No X/LinkedIn post has been published. A prepared post is available locally. The form requires a real post link and hashtag confirmation; neither can be truthfully supplied yet.
+2. **Complete the policy demonstration.** The recorded population used server-side SDK policies through `platform.armoriq.ai`. The later announcement asks to show `tools.armoriq.ai` and ArmorTools Policy Studio. No plugin profile enforced this experiment. Another participant asked the same SDK-versus-Policy-Studio question in general on 17 October; no organiser answer was visible in the checked discussion. The current film discloses the distinction.
+3. **Final review and submission.** The team and project fields are prepared in a saved form draft. The saved form originally marked Pro as No; it must be changed to Yes before final review, now that Pro is verified. Navigation stopped at the required social confirmation. No final submission or receipt exists.
 
 ## Limits judges should see
 
