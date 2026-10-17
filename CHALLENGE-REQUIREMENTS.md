@@ -29,3 +29,11 @@ The previous localhost-only package was a local review package, not a submitted 
 - The active policy is the platform SDK policy. ArmorTools Policy Studio describes publishing ArmorClaude plugin profiles; no such plugin profile enforced the recorded run. The submission must disclose this distinction rather than claim that screen was its runtime.
 - User explicitly declined billing: no checkout opened, no card/UPI, no Pro activation. Mandatory active ArmorTools Pro remains unmet. No eligibility claim is permitted.
 - All 37 local tests passed after the MCP adapter changes.
+
+## Latest recheck — 17 October, 17:30 IST
+
+The signed-in Discord announcement and current Google Form still require active ArmorTools Pro and an X/LinkedIn build post. The account is Free; validating FLOWSTATEPRO confirms 12 months at 100% off, card/UPI required, then $9/month unless cancelled. No checkout, activation, social post or final submission was made. The prepared form truthfully records Pro as No.
+
+A new isolated MCP delivery check passed at 17:21 IST: baseline public rewrite 200, protected team write 200, protected public rewrite 403, remote ID 8990b27e-90dc-4c94-bf3a-25e475010862, two confirmed audits and completions. Zero model calls. The original population recording remains SDK evidence.
+
+[Full current checklist](SUBMISSION-CHECKLIST.md) lists the remaining eligibility conditions, SDK/ArmorTools policy distinction, hosted replay limitation, form fields and current evidence. Another participant asked the SDK/Policy Studio question on 17 October; no organiser answer was visible in the checked discussion. An organiser clarification is prepared but has not been sent.

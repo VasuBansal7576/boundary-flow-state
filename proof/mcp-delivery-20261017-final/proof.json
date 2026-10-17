@@ -1,0 +1,21 @@
+{
+  "ok": true,
+  "verified_at": "2026-10-17T11:51:48.705929+00:00",
+  "started_at": "2026-10-17T11:51:34.061666+00:00",
+  "evidence_kind": "separate live real-MCP integration verification",
+  "not_a_256_agent_rerun": true,
+  "model_calls": 0,
+  "calls": 4,
+  "actual_protocol": "2025-11-25",
+  "discovered_tools": [
+    "site_http"
+  ],
+  "baseline_public_write": 200,
+  "protected_team_write": 200,
+  "protected_public_write": 403,
+  "remote_block_id": "8990b27e-90dc-4c94-bf3a-25e475010862",
+  "audits_confirmed": 2,
+  "completions_confirmed": 2,
+  "original_run_id": "explore-20261016-161209",
+  "original_run_transport": "SDK gateway with registered dynamic tools; not MCP"
+}

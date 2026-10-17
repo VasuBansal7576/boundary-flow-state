@@ -50,3 +50,5 @@ python3 -m http.server 8080
 Open <http://localhost:8080>. Playback needs no account or API key and starts no new agents.
 
 For a fresh experiment, follow the [runbook](RUNBOOK.md). You need your own ArmorIQ credentials and a Codex subscription with available usage. The recorded experiment used an existing subscription and cost $0 extra.
+
+To verify the downloaded evidence without starting models, run `python3 tools/verify_evidence.py`. [Submission checklist](SUBMISSION-CHECKLIST.md) records the current requirements and unresolved eligibility items.
