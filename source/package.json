@@ -1,0 +1,12 @@
+{
+  "name": "boundary-lab",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Recorded local paired-site agent boundary experiment",
+  "scripts": {
+    "browser": "node lab/explore/browser.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}
